@@ -6,7 +6,6 @@ The code is selected against the supplied final paper/slides and their productio
 
 ## Final version and output correspondence
 
-Reference: `writing/main_revised_v21.tex` and its `generated_guarded/tables_figures.tex`, corresponding to the final state-matched paper. The current main estimation comes from stage 28, using the state-matched assignments produced by stage 26.
 
 | Paper component | Included code |
 | --- | --- |
