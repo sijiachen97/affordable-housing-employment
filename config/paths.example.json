@@ -1,0 +1,12 @@
+{
+  "lihtc_csv": "data_raw/LIHTC/LIHTC_public/LIHTCPUB.csv",
+  "nhgis_dir": "data_raw/LIHTC/2010_census_data/data_raw/nhgis0004_csv",
+  "seer_raw": "data_raw/SEER_data/data_raw/us.2006_2023.tract.level.pops.txt",
+  "seer_summary": "data_intermediate/tract_year_demo_sums.csv",
+  "lodes_dir": "data_raw/LODES/OD_related/lodes7_tract_agg_2010_2019",
+  "treatment_dir": "data_intermediate",
+  "controls_csv": "data_intermediate/tract_controls_2010_from_nhgis.csv",
+  "base_panel": "data_panels/2010_2019_did_panel.csv",
+  "analysis_panel": "data_panels/2010_2019_did_panel_with_seer.csv",
+  "employment_panel": "data_intermediate/lodes_panel_rac_wac_od_2010_2019.parquet"
+}

@@ -42,3 +42,9 @@ code/
 ```
 
 Start with the [code guide](docs/CODE_GUIDE.md) for the run order, source-data downloads and the mapping to the final paper/slides. [Validation](docs/VALIDATION.md) distinguishes executed checks from unresolved replication steps. [Source manifest](docs/SOURCE_MANIFEST.json) records original files and selected notebook cells.
+
+### Start replication
+
+Use `python code/replicate.py list` for the ordered workflow and `python code/replicate.py run all --dry-run` to inspect it without running. Follow the [source download and run instructions](docs/CODE_GUIDE.md), then use the same entry point for preparation, estimation, figures and result verification.
+
+**Validation status:** the rebuilt main panel matches all 729,060 rows and all columns of the archived paper input, using existing tract-level LODES inputs and the saved SEER aggregate. A full fresh-download national rerun is not yet certified; exact commuting replication still needs the original OSRM map configuration.

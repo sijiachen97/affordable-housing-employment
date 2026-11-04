@@ -1,17 +1,5 @@
 [
   {
-    "file": "code/data_process/download_2010_2019_lodes.R",
-    "original_relative_path": "scripts/data_process/download_2010_2019_lodes.R",
-    "source_sha256": "f28cd29e3f29cd8aba23b4920dbcaf365bafcee83c711b8a1e77373c863b2e67",
-    "published_sha256": "af0684dbd574d19ca53b94c314058af7964c5a52566ba656f7b2304f1059bfb8",
-    "original_cell_indices": null,
-    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
-    "changes": [
-      "Project root is repository working directory; statistical specifications retained.",
-      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
-    ]
-  },
-  {
     "file": "code/data_process/download_primary_rac_2010_2019.R",
     "original_relative_path": "scripts/data_process/download_primary_rac_2010_2019.R",
     "source_sha256": "529d4cee3f655a5b12dc155b1030d7e39f9a41d590bc2239dbf2c6b31ed5ea2d",
@@ -27,7 +15,7 @@
     "file": "code/data_process/build_tract2010_points_from_tigerline.R",
     "original_relative_path": "scripts/data_process/build_tract2010_points_from_tigerline.R",
     "source_sha256": "87a3539e1065de0c6bd63b771a3eb21fbdece7fb6131e29894d9ca7d0fd910e2",
-    "published_sha256": "05045768c56241f550ed4566ea0276212412e3cfbb5accea2db351af98a5493a",
+    "published_sha256": "eebf9719268cc69d48d2dc6dd0617474761e70aba6b2e87cfcffca1c574e088d",
     "original_cell_indices": null,
     "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
@@ -39,7 +27,7 @@
     "file": "code/data_process/compute_od_pair_distance_from_shapefile_points.R",
     "original_relative_path": "scripts/data_process/compute_od_pair_distance_from_shapefile_points.R",
     "source_sha256": "789b77399c01ea38ec9b3aa100a855fa7cbaecf91bc687146574cdc7ce3f6345",
-    "published_sha256": "5e0148d7a91d471c72e9cffbeee0343694623928fae7e356db76f59c790dde8f",
+    "published_sha256": "b7ea2ff138d9a9f56d1ed8d32f32893e207ae3b496c3002688984325632e9a17",
     "original_cell_indices": null,
     "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
@@ -87,62 +75,10 @@
     "file": "code/data_process/build_residence_panel_road.py",
     "original_relative_path": "scripts/data_process/build_residence_panel_road.py",
     "source_sha256": "10035f27c2c5305971c1fd84efaa61f0434a9d90b96ead7226655b093eafd5c9",
-    "published_sha256": "3fb5170423e36cd2553a88e006857e2f0d9cf44a786f99f1e765fb835a62e352",
+    "published_sha256": "3e0a67dded120fb80a6a534a1e56f428dae2dc1c487508f658c13e50bf2bee47",
     "original_cell_indices": null,
     "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Project root is repository working directory; statistical specifications retained.",
-      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
-    ]
-  },
-  {
-    "file": "code/data_process/data prep - lihtc property.ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - lihtc property.ipynb",
-    "source_sha256": "f9c5ebd182f20f8f7b2175494258ea9483ee92daf012c7431546735cb446e5e7",
-    "published_sha256": "f3b70367c6a044c1396402d97899a2e224a2f8241e8ed2d8a392e3063e2f1549",
-    "original_cell_indices": null,
-    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
-    "changes": [
-      "Notebook outputs and execution counts removed.",
-      "Project root is repository working directory; statistical specifications retained.",
-      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
-    ]
-  },
-  {
-    "file": "code/data_process/data prep - 2010 census data (controls).ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
-    "source_sha256": "f18a9d78f915738d3f6a8fcef1a6179c4e1f1cdfd8606463599c3a5d9153b2b0",
-    "published_sha256": "48c4f5c5212169d0397911de677e7188bc379d9122e7c127a57eaa9696106f73",
-    "original_cell_indices": null,
-    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
-    "changes": [
-      "Notebook outputs and execution counts removed.",
-      "Project root is repository working directory; statistical specifications retained.",
-      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
-    ]
-  },
-  {
-    "file": "code/data_process/data prep - merge lodes outcomes.ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
-    "source_sha256": "94c6288348783c7235bf40c948eb46713b0a9c4afafe374641abc5f84adb59a1",
-    "published_sha256": "3d52768e7960b31c3b7617edef15ff6b8b2debc082173e08692742b67e8d8a1d",
-    "original_cell_indices": null,
-    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
-    "changes": [
-      "Notebook outputs and execution counts removed.",
-      "Project root is repository working directory; statistical specifications retained.",
-      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
-    ]
-  },
-  {
-    "file": "code/data_process/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
-    "source_sha256": "ae60e2e2c354bdf91d4414c0a4d0817e7b21695c84a8ed9947d7aa2bc7fdc542",
-    "published_sha256": "b414f9041f10021ee2f5cb5f54d4e1f2d501bfd4ade4e36dcab98621409ad230",
-    "original_cell_indices": null,
-    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
-    "changes": [
-      "Notebook outputs and execution counts removed.",
       "Project root is repository working directory; statistical specifications retained.",
       "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
     ]
@@ -635,5 +571,121 @@
     "original_relative_path": null,
     "evidence": "New execution wrapper derived from the selected production script order.",
     "published_sha256": "f358746e44d97edee906499c7a5875d417580205ee4cfc43591438489cefa838"
+  },
+  {
+    "file": "code/data_process/01_build_treatment.py",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - lihtc property.ipynb",
+    "original_cell_indices": [
+      3
+    ],
+    "source_sha256": "f9c5ebd182f20f8f7b2175494258ea9483ee92daf012c7431546735cb446e5e7",
+    "changes": [
+      "Extracted production cells; configured paths; no model changes."
+    ],
+    "published_sha256": "dcd2ad92ef5e198c41a5235c2349ab4512d40ebec3c1035c162d0318df7dd9cc"
+  },
+  {
+    "file": "code/data_process/02_build_controls.py",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
+    "original_cell_indices": [
+      0
+    ],
+    "source_sha256": "f18a9d78f915738d3f6a8fcef1a6179c4e1f1cdfd8606463599c3a5d9153b2b0",
+    "changes": [
+      "Extracted production cells; configured paths; no model changes."
+    ],
+    "published_sha256": "3d90d9e53ce1df81e3438ddf7d33134694bdd944b55874b72a21fad758acb602"
+  },
+  {
+    "file": "code/data_process/03_build_employment.py",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
+    "original_cell_indices": [
+      0
+    ],
+    "source_sha256": "94c6288348783c7235bf40c948eb46713b0a9c4afafe374641abc5f84adb59a1",
+    "changes": [
+      "Extracted production cells; configured paths; no model changes."
+    ],
+    "published_sha256": "c253dff30f1bbf7a88ac3c854cc8301f0e9e8f0e64f99510f70ca9107f042c4b"
+  },
+  {
+    "file": "code/data_process/04_merge_panel.py",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
+    "original_cell_indices": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "source_sha256": "ae60e2e2c354bdf91d4414c0a4d0817e7b21695c84a8ed9947d7aa2bc7fdc542",
+    "changes": [
+      "Extracted production cells; configured paths; no model changes."
+    ],
+    "published_sha256": "337cc703cced756b8a80aaa31876334a830ab8b625bdc1a837a9f1d24dea19d5"
+  },
+  {
+    "file": "code/data_process/05_aggregate_seer.py",
+    "original_relative_path": "data_raw/SEER_data/scripts/generate_tract_year_demo_sums.py",
+    "source_sha256": "e2351b5144879081d2cbd626d07e86151caaefd0eb99dc6a9e7dbd7cfd18e4a1",
+    "changes": [
+      "Original streaming SEER aggregator copied unchanged."
+    ],
+    "published_sha256": "e2351b5144879081d2cbd626d07e86151caaefd0eb99dc6a9e7dbd7cfd18e4a1"
+  },
+  {
+    "file": "code/analysis/verify_results.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "bb73dc5688dd4b4cf61522fd2baa9c65f79dce48a07c2b65ace5ac9435610a9e"
+  },
+  {
+    "file": "code/data_process/06_merge_seer.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "7b1fd7265dcbd922ad32b071378b3567c3cb7c11959dee6b7f7c3a6e0cd15496"
+  },
+  {
+    "file": "code/data_process/download_lodes.R",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "495d194b5e75c82f2c3fd568e25395dbd10c32078d2f8f921e9e99486eab6268"
+  },
+  {
+    "file": "code/replicate.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "84678fa1c06edc0748c96077dcd74366c99b0b09193b81d0b8df0fd7336fb878"
+  },
+  {
+    "file": "code/support/__init__.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "code/support/paths.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "8c2d1dcf2b83bf4b59dfbd27da80b67e30779980b68d735330152a4c72ace21e"
+  },
+  {
+    "file": "code/tests/test_population_pipeline.py",
+    "original_relative_path": null,
+    "changes": [
+      "Replication orchestration, validation, or adapted source preparation added November 4, 2026."
+    ],
+    "published_sha256": "fd61526eadcec0e908a7730220a014872ee212a7d662406634e3e68e8978caa8"
   }
 ]

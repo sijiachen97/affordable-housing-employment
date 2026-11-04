@@ -21,3 +21,6 @@ __pycache__/
 *.dat.gz
 *.csv.gz
 *.log
+
+/data_intermediate/
+/config/paths.local.json

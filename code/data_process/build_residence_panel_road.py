@@ -156,8 +156,7 @@ def main() -> None:
         try:
             panel = process_state(st, road)
         except Exception as e:
-            print(f"  [{st}] ERROR: {e}")
-            continue
+            raise RuntimeError(f"State {st} failed; refusing to publish a partial panel") from e
         per_state_panels.append(panel)
         elapsed = time.time() - t_st
         print(f"  [{i:2d}/{len(states)}] state={st} done ({elapsed:5.1f}s, "

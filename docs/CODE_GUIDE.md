@@ -9,8 +9,8 @@ The code is selected against the supplied final paper/slides and their productio
 
 | Paper component | Included code |
 | --- | --- |
-| LIHTC treatment histories, baseline controls and tract-year panel | Four preparation notebooks in `code/data_process/` |
-| LODES download and geographic distance preparation | `download_2010_2019_lodes.R`, `build_tract2010_points_from_tigerline.R`, `compute_od_pair_distance_from_shapefile_points.R` |
+| LIHTC treatment histories, baseline controls and tract-year panel | Numbered Python scripts `01`–`06` in `code/data_process/` |
+| LODES download and geographic distance preparation | `download_lodes.R`, `build_tract2010_points_from_tigerline.R`, `compute_od_pair_distance_from_shapefile_points.R` |
 | Road-network commuting panel | `build_unique_tract_pairs_nodb.py` → `query_osrm_road_distances.py` → `merge_road_distance_batches.py` → `build_residence_panel_road.py` |
 | Nearby/farther outcomes at 5, 10 and 20 km | `code/data_process/build_near_far_panel.R`, extracted from the original preparation block |
 | Main state matching | `code/analysis/matching/main_state_guarded.R` |
@@ -24,24 +24,53 @@ The code is selected against the supplied final paper/slides and their productio
 
 ## Run order
 
-1. Download the sources below and run the preparation notebooks and LODES/geography scripts. Configure their input locations first. The older LIHTC/LODES layouts are now under `legacy_inputs/LIHTC` and `legacy_inputs/LODES`; those source layouts are not silently equated with the current analysis-input layout.
-2. Prepare `data_panels/2010_2019_did_panel_with_seer.csv`, the road-distance/commute inputs and the primary-job data. Run the extracted `build_primary_rac_panel.R` and `build_near_far_panel.R` blocks after their inputs exist.
-3. Run the main and spatial analysis, then figures:
+Use `python code/replicate.py list` to see the ordered stages. You do not need to select individual scripts. Start from the repository root with Python and R installed:
 
 ```sh
-bash code/analysis/run_main.sh
-bash code/analysis/run_spatial.sh
-bash code/analysis/run_figures.sh
+python -m pip install -r requirements.txt
+cp config/paths.example.json config/paths.local.json
+python code/replicate.py run all --config config/paths.local.json --dry-run
 ```
 
-The shell entrypoints keep source code in `code/` and generated results in `output/`; they do not download or recreate missing raw inputs. They are derived from the production commands, with updated source locations. `run_figures.sh` expects both main and spatial estimation outputs. The LaTeX export is written to `output/paper_assets/tables_figures.tex`; its manuscript-relative image paths are preserved for integration into the paper.
+Download the manually supplied sources below, edit input paths in the local config if needed, and then run stages in order:
 
-## Important input and dependency details
+```sh
+python code/replicate.py run download-lodes
+python code/replicate.py run seer --config config/paths.local.json
+python code/replicate.py run panel --config config/paths.local.json
+python code/replicate.py run geometry
+# Start your OSRM server before routing; its map vintage affects exact replication.
+export OSRM_URL=http://localhost:5000
+python code/replicate.py run routing
+python code/replicate.py run commuting
+python code/replicate.py run primary-inputs
+python code/replicate.py run main
+python code/replicate.py run spatial
+python code/replicate.py run figures
+python code/replicate.py run verify
+```
 
-- `run_main.sh` needs the SEER-population panel, commute panel, primary RAC panel, primary WAC download chunks, near/far panel and industry employment inputs. Source scripts are present, but the original SEER merge code still has not been located; do not substitute another population denominator.
-- The final spatial estimator uses guarded state matches. `data_process/spatial/legacy_county_pairs.R` is retained **only because original upstream geography code checks frozen county-pair inputs**. Its estimates are not the paper's final main results. Older spatial estimators, reports and alternative stages are excluded.
-- The original 2010–2019 downloader's RAC/WAC sections are commented out; its active section downloads OD. Those commented source blocks and the panel notebooks document the research inputs, but an unattended full raw-data rebuild still needs that step configured. Raw and cleaned directory handoffs must be reconciled before running a national rebuild.
-- OSRM requires a configured server and the research road-network vintage. The nationwide route computation and the complete regression suite were not rerun during this reorganization.
+`check STAGE` reports missing inputs. `run STAGE` checks inputs and stops on command failure, saving logs under `output/replication_logs/`. `run all` performs the same sequence, but requires the manual downloads and running OSRM service first. This complete national sequence has **not** yet been rerun as a whole; see [Validation](VALIDATION.md).
+
+The local config supports alternative raw inputs for the main panel. Keep output paths at their defaults for estimation: existing R models use the canonical `data_panels/` and `data_raw/` paths. Geometry and routing also use the canonical paths below. Do not point output paths at an original research archive.
+
+### Manual input placement
+
+- HUD: `data_raw/LIHTC/LIHTC_public/LIHTCPUB.csv`.
+- NHGIS: both `nhgis*_ds172_2010_tract.csv` (2010 SF1) and `nhgis*_ds176_20105_tract.csv` (2006–2010 ACS) under `data_raw/LIHTC/2010_census_data/data_raw/nhgis0004_csv/`. Keep source column names. Script `02_build_controls.py` lists the required table codes and fails if they are missing; an arbitrary ACS API extract is not a drop-in substitute.
+- SEER: `data_raw/SEER_data/data_raw/us.2006_2023.tract.level.pops.txt`. Script `05` streams the original fixed-width file, scales population by 10,000, and aggregates age/race/sex counts. Script `06` left-joins them onto the baseline panel, preserving unmatched rows. Do not substitute a different population series.
+- TIGER: extract 2010 tract shapefiles and their sidecar files under `data_raw/LODES/tiger2010_tract/unzipped/`.
+- LODES: the download stage creates tract-level RAC/WAC/same-tract OD files and full within-state OD flows. It uses LODES 7, all jobs JT00, and the original state/year availability restrictions. Primary-job downloads run separately in `primary-inputs`.
+
+### Outputs and checks
+
+The main analysis panel is `data_panels/2010_2019_did_panel_with_seer.csv`. Main results are written to `output/research_extensions/28_paper_state_guarded_refresh/`; final spatial results to `output/research_extensions/23_spatial_spillover/stage_o/`; manuscript tables to `output/paper_assets/`.
+
+`verify` compares main matched-pair-by-year coefficients, standard errors, p-values and sample sizes with archived production values in `reference/expected_main_results.csv`. It reports mismatches rather than changing estimates. This covers main aggregate result rows, not every spatial result or plotted point.
+
+The final spatial estimator uses guarded state matches. `data_process/spatial/legacy_county_pairs.R` remains only because upstream geography code checks those inputs; it is not the final main estimator.
+
+Exact road-distance replication still requires confirmation of the original OSRM build/profile and road-network extract. Using an arbitrary current map can produce different distances. Route failures are missing distances, not zero commutes; intra-tract routes retain the source straight-line fallback.
 
 ## Source data: where to download
 
@@ -51,13 +80,15 @@ The shell entrypoints keep source code in `code/` and generated results in `outp
 | 2010 tract geography | [Census TIGER/Line 2010 tract downloads](https://www2.census.gov/geo/tiger/TIGER2010/TRACT/2010/). Obtain all county files needed for each state; retain the complete shapefile components after extraction. | Tract IDs, internal points, and geometric centroids |
 | Road network | [Geofabrik U.S. extracts and historical files](https://download.geofabrik.de/north-america/us.html). Historical 2021 data are listed there. | OSRM road routing |
 | LIHTC properties | [HUD LIHTC program data](https://www.huduser.gov/portal/datasets/lihtc.html), property-level database. Record the release date; retain construction type and placed-in-service timing. | Treatment definition and project scale |
-| Baseline tract covariates | [Census 2006–2010 ACS 5-year API catalog](https://api.census.gov/data/2010/acs/acs5.html). Select tract-level tables. | Matching covariates in the full paper |
+| Baseline tract covariates | [IPUMS NHGIS](https://www.nhgis.org/). Request tract-level 2010 SF1 and 2006–2010 ACS CSV extracts with the source table codes used in `02_build_controls.py`; account/extract preparation may be required. | Matching covariates in the full paper |
 | Annual tract population | [NCI/SEER census tract population estimates](https://seer.cancer.gov/censustract-pops/), following the provider's request/access process. | Population denominator in the full paper |
 
 ## Software
 
 R packages referenced: `MatchIt`, `Matrix`, `arrow`, `data.table`, `dplyr`, `fixest`, `lehdr`, `purrr`, `sf`, `tidyverse`.
 
-Install Python packages with `pip install -r requirements.txt`. Jupyter is needed for the preparation/analysis notebooks.
+Install Python packages with `pip install -r requirements.txt`. The selected notebook transformations are now numbered command-line scripts; Jupyter is not required.
 
 Dependencies are not a fully pinned environment. See [Validation](VALIDATION.md) for what was and was not executed.
+
+Recorded local software versions are in [environment.json](environment.json). They document the validation environment, not a fully locked cross-platform environment.

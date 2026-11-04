@@ -22,10 +22,10 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-LODES_ROOT <- "./legacy_inputs/LODES"
-OD_INPUT <- file.path(LODES_ROOT, "data_derivatives/out_od_full_parquet")  # folder of state-year Parquet chunks
-POINTS_PATH <- file.path(LODES_ROOT, "data_derivatives", "cache", "tract2010_points_from_shapefile.parquet")
-OUT_DIR <- file.path(LODES_ROOT, "data_derivatives/out_od_full_parquet_with_dist_both")
+LODES_ROOT <- "data_raw/LODES/OD_related"
+OD_INPUT <- file.path(LODES_ROOT, "out_od_full_parquet")  # folder of state-year Parquet chunks
+POINTS_PATH <- file.path(LODES_ROOT, "cache", "tract2010_points_from_shapefile.parquet")
+OUT_DIR <- file.path(LODES_ROOT, "out_od_full_parquet_with_dist_both")
 
 
 haversine_km <- function(lat1, lon1, lat2, lon2) {

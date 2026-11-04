@@ -19,9 +19,9 @@ suppressPackageStartupMessages({
   library(arrow)
 })
 
-LODES_ROOT <- "./legacy_inputs/LODES"
-SHAPE_DIR <- file.path(LODES_ROOT, "data_raw/tiger2010_tract", "unzipped")
-OUT_PATH <- file.path(LODES_ROOT, "data_derivatives", "cache", "tract2010_points_from_shapefile.parquet")
+LODES_ROOT <- "data_raw/LODES"
+SHAPE_DIR <- file.path(LODES_ROOT, "tiger2010_tract", "unzipped")
+OUT_PATH <- file.path(LODES_ROOT, "OD_related", "cache", "tract2010_points_from_shapefile.parquet")
 
 dir.create(dirname(OUT_PATH), showWarnings = FALSE, recursive = TRUE)
 
