@@ -1,5 +1,39 @@
 # Affordable housing, employment, and commuting
 
+## Source data: where to download
+
+Links checked November 4, 2026. Downloading these sources is not yet sufficient to reproduce the paper: the upstream processing and estimation steps listed below are not included in this repository.
+
+| Source | Download location and selection | Used for |
+| --- | --- | --- |
+| LODES employment | [Census LODES 7 archive](https://lehd.ces.census.gov/data/lodes/LODES7/). Select state folders and years 2010–2019. Use OD `main` files and all jobs (`JT00`) for the within-state flow sample; RAC/WAC are separate inputs to the full paper. | Employment and residence–workplace flows |
+| 2010 tract geography | [Census TIGER/Line 2010 tract downloads](https://www2.census.gov/geo/tiger/TIGER2010/TRACT/2010/). Obtain all county files needed for each state; retain the complete shapefile components after extraction. | Tract IDs, internal points, and geometric centroids |
+| Road network | [Geofabrik U.S. extracts and historical files](https://download.geofabrik.de/north-america/us.html). Historical 2021 data are listed there. | OSRM road routing |
+| LIHTC properties | [HUD LIHTC program data](https://www.huduser.gov/portal/datasets/lihtc.html), property-level database. Record the release date; retain construction type and placed-in-service timing. | Treatment definition in the full paper; not read by the current commuting scripts |
+| Baseline tract covariates | [Census 2006–2010 ACS 5-year API catalog](https://api.census.gov/data/2010/acs/acs5.html). Select tract-level tables. | Matching covariates in the full paper |
+| Annual tract population | [NCI/SEER census tract population estimates](https://seer.cancer.gov/censustract-pops/), following the provider's request/access process. | Population denominator in the full paper |
+
+Do not substitute LODES 8/2020 boundaries for the LODES 7/2010 geography without a documented harmonization step. Preserve the exact release date and checksums of downloaded inputs. The precise historical OSM extract and OSRM build used for the research still need to be recorded; the year in the output filename alone is insufficient. SEER's county population download is not a substitute for tract population.
+
+## Completeness review
+
+| Stage | Included? | What is still needed |
+| --- | --- | --- |
+| Download raw sources | No | Download manifest with release dates, file checksums, and state/year coverage |
+| Aggregate raw block-level OD to tract pairs | No | String-preserving GEOID handling, within-state sample selection, year attachment, and count aggregation |
+| Generate tract points and attach straight-line distances | No | Original R scripts exist locally but have not yet been ported and validated in this repo |
+| Deduplicate pairs, query routes, merge batches, aggregate panels | Yes | Prepared inputs and a configured OSRM server |
+| LIHTC/ACS/population merge, matching, event study, figure generation | No | Final-version analysis scripts and their complete upstream dependencies |
+
+Two local precursor scripts have been identified: `build_tract2010_points_from_tigerline.R` and `compute_od_pair_distance_from_shapefile_points.R`. The similarly named `get_lodes_od_all.R` is an older LODES 5 / 2002–2007 analysis and must not be presented as the 2010–2019 download pipeline.
+
+### Operational points found in review
+
+- Routing records failed chunks as missing and marks the home tract as processed. A resume does not automatically retry those failed routes; a targeted retry and coverage report are needed before treating a national run as complete.
+- Batch merging does not itself reject duplicate home–work keys. Check key uniqueness before joining, especially after retries.
+- The panel builder catches state-level errors and continues. Inspect its log and expected state/year coverage; a written output file alone does not prove every state succeeded.
+- The synthetic test checks the aggregation component, not the entire download-to-results workflow. Dependency versions and the OSRM configuration are not yet pinned.
+
 This project studies neighborhood employment following Low-Income Housing Tax Credit development. It distinguishes jobs held by residents from jobs located in the neighborhood. The research combines HUD project records, LODES employment data, and population data, using matching and a staggered event-study design.
 
 The selected code demonstrates a separate data-engineering component: constructing road-distance commuting measures from residence–workplace flows. These scripts do not estimate the event study. The nearby/distant job analysis uses straight-line distances; the road-distance measure here serves the commuting analysis.
