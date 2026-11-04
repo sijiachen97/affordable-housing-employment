@@ -12,6 +12,6 @@ The SEER aggregation source was located under `data_raw/SEER_data/scripts/` and 
 
 ## Not yet certified end to end
 
-The 6.4 GB raw SEER file was not fully reaggregated in this pass; the real-data panel comparison used the saved aggregate. The revised national LODES downloader, nationwide OSRM routes, and complete matching/regression/figure sequence were not rerun. The original OSRM map extract, profile and version still need confirmation for exact commuting replication. Source data releases may have changed since the original analysis.
+The 6.4 GB raw SEER file was not fully reaggregated in this pass; the real-data panel comparison used the saved aggregate. The revised national LODES downloader, nationwide OSRM routes, and complete matching/regression/figure sequence were not rerun. The original log identifies `us-210101.osm.pbf` (2021) and MLD routing; the OSRM image/version, extraction profile and map checksum remain unrecorded. See [routing configuration](OSRM_REPLICATION.md). Source data releases may have changed since the original analysis.
 
 The `verify` stage provides archived aggregate targets for a future estimation run. A successful comparison against the archived file itself tests the comparator, not a fresh regression reproduction. No raw microdata or model caches are included.

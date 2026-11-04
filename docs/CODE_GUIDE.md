@@ -70,7 +70,7 @@ The main analysis panel is `data_panels/2010_2019_did_panel_with_seer.csv`. Main
 
 The final spatial estimator uses guarded state matches. `data_process/spatial/legacy_county_pairs.R` remains only because upstream geography code checks those inputs; it is not the final main estimator.
 
-Exact road-distance replication still requires confirmation of the original OSRM build/profile and road-network extract. Using an arbitrary current map can produce different distances. Route failures are missing distances, not zero commutes; intra-tract routes retain the source straight-line fallback.
+The original session log identifies the 2021 Geofabrik `us-210101.osm.pbf` map and MLD routing. Exact road-distance replication still requires confirmation of the OSRM image/build, extraction profile and map checksum; see [recovered routing configuration](OSRM_REPLICATION.md). Using an arbitrary current map can produce different distances. Route failures are missing distances, not zero commutes; intra-tract routes retain the source straight-line fallback.
 
 ## Source data: where to download
 
