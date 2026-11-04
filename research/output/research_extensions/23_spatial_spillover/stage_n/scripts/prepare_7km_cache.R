@@ -1,0 +1,15 @@
+suppressPackageStartupMessages(library(tidyverse))
+a<-commandArgs(TRUE);root<-a[1];out<-a[2]
+z<-readRDS(file.path(root,'stage_a/neighborhood_cache.rds'));b<-z$base;p<-z$pts;idx<-match(b$tract_id,p$tract_id)
+hav<-function(k,j){q<-pi/180;2*6371.0088*asin(pmin(1,sqrt(sin((p$centroid_lat[j]-p$centroid_lat[idx[k]])*q/2)^2+cos(p$centroid_lat[j]*q)*cos(p$centroid_lat[idx[k]]*q)*sin((p$centroid_lon[j]-p$centroid_lon[idx[k]])*q/2)^2)))}
+mem<-lapply(seq_len(nrow(b)),function(k){j<-z$members[['10']][[k]];j[hav(k,j)<=7]})
+raw<-read_csv('./data_raw/LIHTC/LIHTC_public/LIHTCPUB.csv',col_types=cols(.default=col_character()))%>%filter(str_trim(type)=='1')%>%mutate(tract_id=suppressWarnings(as.numeric(fips2010)),pis=suppressWarnings(as.numeric(yr_pis)))
+known<-is.finite(raw$pis)&!raw$pis%in%c(8888,9999);ev<-split(raw$pis[known],raw$tract_id[known]);events<-lapply(p$tract_id,function(id){x<-ev[[as.character(id)]];if(is.null(x))numeric() else x})
+z$members<-list('7'=mem);z$events<-list('7'=lapply(mem,function(j)unlist(events[j],use.names=FALSE)))
+saveRDS(z,file.path(out,'stage_a/neighborhood_cache.rds'))
+cv<-b%>%mutate(radius_km=7,incomplete_outcome_tracts=vapply(mem,function(j)sum(!p$complete[j]),integer(1)),unknown_timing_tracts=vapply(mem,function(j)sum(z$unknown[j]),integer(1)))
+write_csv(cv,file.path(out,'stage_a/center_geography_coverage.csv.gz'))
+nids<-lapply(seq_along(mem),function(k)setdiff(mem[[k]],idx[k]));nproj<-vapply(nids,function(j)sum(unlist(events[j])>=2010&unlist(events[j])<=2019),integer(1));nu<-vapply(nids,function(j)sum(z$unknown[j]),integer(1))
+iso<-tibble(radius_km=7,tract_id=b$tract_id,cohort=b$first_pis_year,neighbor_projects_2010_2019=nproj,neighbor_unknown_tracts=nu,isolated=nproj==0&nu==0)
+write_csv(iso,file.path(out,'stage_j/matching/treated_surroundings_audit.csv'))
+stopifnot(all(vapply(seq_along(mem),function(k)idx[k]%in%mem[[k]],logical(1))))

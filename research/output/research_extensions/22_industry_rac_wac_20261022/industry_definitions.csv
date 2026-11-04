@@ -1,0 +1,21 @@
+sector,naics,industry,industry_cn
+CNS01,11,"Agriculture, forestry, fishing",农林牧渔
+CNS02,21,Mining and extraction,采矿及油气开采
+CNS03,22,Utilities,公用事业
+CNS04,23,Construction,建筑
+CNS05,31–33,Manufacturing,制造
+CNS06,42,Wholesale trade,批发
+CNS07,44–45,Retail trade,零售
+CNS08,48–49,Transportation and warehousing,运输与仓储
+CNS09,51,Information,信息
+CNS10,52,Finance and insurance,金融与保险
+CNS11,53,Real estate and leasing,房地产与租赁
+CNS12,54,Professional and technical services,专业及技术服务
+CNS13,55,Management of companies,公司和企业管理
+CNS14,56,Administrative and waste services,行政支持及废物管理
+CNS15,61,Education,教育
+CNS16,62,Health care and social assistance,医疗及社会援助
+CNS17,71,Arts and recreation,文娱
+CNS18,72,Accommodation and food services,住宿餐饮
+CNS19,81,Other services,其他服务
+CNS20,92,Public administration,公共行政

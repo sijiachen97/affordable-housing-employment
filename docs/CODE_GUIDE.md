@@ -15,28 +15,9 @@ Links checked November 4, 2026. Downloading these sources is not yet sufficient 
 
 Do not substitute LODES 8/2020 boundaries for the LODES 7/2010 geography without a documented harmonization step. Preserve the exact release date and checksums of downloaded inputs. The precise historical OSM extract and OSRM build used for the research still need to be recorded; the year in the output filename alone is insufficient. SEER's county population download is not a substitute for tract population.
 
-## Completeness review
+## Included research code
 
-| Stage | Included? | What is still needed |
-| --- | --- | --- |
-| Download raw sources | No | Download manifest with release dates, file checksums, and state/year coverage |
-| Aggregate raw block-level OD to tract pairs | No | String-preserving GEOID handling, within-state sample selection, year attachment, and count aggregation |
-| Generate tract points and attach straight-line distances | No | Original R scripts exist locally but have not yet been ported and validated in this repo |
-| Deduplicate pairs, query routes, merge batches, aggregate panels | Yes | Prepared inputs and a configured OSRM server |
-| LIHTC/ACS/population merge, matching, event study, figure generation | No | Final-version analysis scripts and their complete upstream dependencies |
-
-Two local precursor scripts have been identified: `build_tract2010_points_from_tigerline.R` and `compute_od_pair_distance_from_shapefile_points.R`. The similarly named `get_lodes_od_all.R` is an older LODES 5 / 2002–2007 analysis and must not be presented as the 2010–2019 download pipeline.
-
-### Operational points found in review
-
-- Routing records failed chunks as missing and marks the home tract as processed. A resume does not automatically retry those failed routes; a targeted retry and coverage report are needed before treating a national run as complete.
-- Batch merging does not itself reject duplicate home–work keys. Check key uniqueness before joining, especially after retries.
-- The panel builder catches state-level errors and continues. Inspect its log and expected state/year coverage; a written output file alone does not prove every state succeeded.
-- The synthetic test checks the aggregation component, not the entire download-to-results workflow. Dependency versions and the OSRM configuration are not yet pinned.
-
-This project studies neighborhood employment following Low-Income Housing Tax Credit development. It distinguishes jobs held by residents from jobs located in the neighborhood. The research combines HUD project records, LODES employment data, and population data, using matching and a staggered event-study design.
-
-The selected code demonstrates a separate data-engineering component: constructing road-distance commuting measures from residence–workplace flows. These scripts do not estimate the event study. The nearby/distant job analysis uses straight-line distances; the road-distance measure here serves the commuting analysis.
+The repository now includes data-construction and main-analysis source in `research/`, in addition to the focused utilities described below. See [Research workflow](RESEARCH_WORKFLOW.md) for the file-by-file roles, execution order, and unresolved input handoffs. The earlier selection-only completeness inventory has been superseded by that workflow; full numerical replication has not been certified.
 
 ## Workflow
 
