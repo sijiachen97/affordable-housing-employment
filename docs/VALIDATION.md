@@ -1,9 +1,11 @@
-# Validation and scope
+# Validation and remaining issues
 
-The selected code was checked on November 4, 2026. These repositories contain selected research code, not complete replication packages. No raw microdata are included. Figures reproduce the supplied paper or slides and are not outputs of the synthetic demonstrations.
+Consolidation checks, November 4, 2026: 38 R files, 7 Python files, 4 notebooks (49 code cells), and 3 shell entrypoints passed syntax checks. Notebook outputs and execution counts were cleared. Source hashes and adapted-file hashes are in SOURCE_MANIFEST.json.
 
-Python syntax checks and the synthetic panel check passed, including weighted means, failed-route exclusion, intra-tract fallback, and leading-zero identifiers. National routing was not rerun.
+The following stage-28 production PDFs are byte-for-byte identical to the assets included in the final manuscript:
 
-## Expanded research source checks (November 4, 2026)
+- `es_pooled_main_combined.pdf`
+- `es_pooled_commute.pdf`
+- `primary_comparison.pdf`
 
-Parsed 81 R files and 25 Python files; checked 4 notebooks containing 45 code cells. No syntax errors were reported. Notebook outputs and execution counts are cleared. These checks do not execute the analyses, validate package availability, or reproduce numerical estimates. See RESEARCH_WORKFLOW.md for unresolved handoffs.
+The original national routing, matching and regression suites were not rerun. The SEER merge source is still missing; preparation scripts also retain legacy directory handoffs and commented RAC/WAC download sections. These must be configured before claiming end-to-end raw-data replication. The selected spatial preparation includes older pair checks only as dependencies of the final stage-O calculation.

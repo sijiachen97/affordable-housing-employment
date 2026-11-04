@@ -1,51 +1,64 @@
-# Affordable housing, employment, and commuting
+# Affordable housing: code guide
+
+All executable research code is under `code/`. `code/data_process/` constructs inputs; `code/analysis/` estimates models and produces tables/figures. Run commands from the repository root. The original research folders are unchanged.
+
+The code is selected against the supplied final paper/slides and their production dependencies, rather than copied as an archive of every experiment. [Source manifest](SOURCE_MANIFEST.json) records original filenames, selected notebook cells, hashes and adaptations. [Source review](SOURCE_REVIEW.json) lists the reviewed source inventory and inclusion/exclusion decisions. No microdata, model caches or saved notebook outputs are shared.
+
+## Final version and output correspondence
+
+Reference: `writing/main_revised_v21.tex` and its `generated_guarded/tables_figures.tex`, corresponding to the final state-matched paper. The current main estimation comes from stage 28, using the state-matched assignments produced by stage 26.
+
+| Paper component | Included code |
+| --- | --- |
+| LIHTC treatment histories, baseline controls and tract-year panel | Four preparation notebooks in `code/data_process/` |
+| LODES download and geographic distance preparation | `download_2010_2019_lodes.R`, `build_tract2010_points_from_tigerline.R`, `compute_od_pair_distance_from_shapefile_points.R` |
+| Road-network commuting panel | `build_unique_tract_pairs_nodb.py` → `query_osrm_road_distances.py` → `merge_road_distance_batches.py` → `build_residence_panel_road.py` |
+| Nearby/farther outcomes at 5, 10 and 20 km | `code/data_process/build_near_far_panel.R`, extracted from the original preparation block |
+| Main state matching | `code/analysis/matching/main_state_guarded.R` |
+| Main outcomes, wage tiers, commute and income heterogeneity | `code/analysis/main/estimate_core.R`, with `engine.R` |
+| Construction intensity, primary-job RAC and nearby/farther regressions | `code/analysis/main/estimate_extensions.R` |
+| Industry outcomes | `code/analysis/main/estimate_industry.R` |
+| Primary WAC appendix | `download_primary_wac.R` and `code/analysis/main/estimate_primary_wac.R` |
+| Spatial redistribution appendix | `code/analysis/spatial/estimate_guarded_regions.R` (final stage O), its matching/validation scripts and necessary preparation ancestors in `code/data_process/spatial/` |
+| Main and appendix figures | `code/analysis/figures/`: event figures, wage/industry/commute figures, primary comparison, final balance and near/far figures |
+| Final LaTeX tables | `code/analysis/figures/build.py` + `append_sections.py` generate the results preview; `export_paper_tables.py` is the actual manuscript table exporter |
+
+## Run order
+
+1. Download the sources below and run the preparation notebooks and LODES/geography scripts. Configure their input locations first. The older LIHTC/LODES layouts are now under `legacy_inputs/LIHTC` and `legacy_inputs/LODES`; those source layouts are not silently equated with the current analysis-input layout.
+2. Prepare `data_panels/2010_2019_did_panel_with_seer.csv`, the road-distance/commute inputs and the primary-job data. Run the extracted `build_primary_rac_panel.R` and `build_near_far_panel.R` blocks after their inputs exist.
+3. Run the main and spatial analysis, then figures:
+
+```sh
+bash code/analysis/run_main.sh
+bash code/analysis/run_spatial.sh
+bash code/analysis/run_figures.sh
+```
+
+The shell entrypoints keep source code in `code/` and generated results in `output/`; they do not download or recreate missing raw inputs. They are derived from the production commands, with updated source locations. `run_figures.sh` expects both main and spatial estimation outputs. The LaTeX export is written to `output/paper_assets/tables_figures.tex`; its manuscript-relative image paths are preserved for integration into the paper.
+
+## Important input and dependency details
+
+- `run_main.sh` needs the SEER-population panel, commute panel, primary RAC panel, primary WAC download chunks, near/far panel and industry employment inputs. Source scripts are present, but the original SEER merge code still has not been located; do not substitute another population denominator.
+- The final spatial estimator uses guarded state matches. `data_process/spatial/legacy_county_pairs.R` is retained **only because original upstream geography code checks frozen county-pair inputs**. Its estimates are not the paper's final main results. Older spatial estimators, reports and alternative stages are excluded.
+- The original 2010–2019 downloader's RAC/WAC sections are commented out; its active section downloads OD. Those commented source blocks and the panel notebooks document the research inputs, but an unattended full raw-data rebuild still needs that step configured. Raw and cleaned directory handoffs must be reconciled before running a national rebuild.
+- OSRM requires a configured server and the research road-network vintage. The nationwide route computation and the complete regression suite were not rerun during this reorganization.
 
 ## Source data: where to download
-
-Links checked November 4, 2026. Downloading these sources is not yet sufficient to reproduce the paper: the upstream processing and estimation steps listed below are not included in this repository.
 
 | Source | Download location and selection | Used for |
 | --- | --- | --- |
 | LODES employment | [Census LODES 7 archive](https://lehd.ces.census.gov/data/lodes/LODES7/). Select state folders and years 2010–2019. Use OD `main` files and all jobs (`JT00`) for the within-state flow sample; RAC/WAC are separate inputs to the full paper. | Employment and residence–workplace flows |
 | 2010 tract geography | [Census TIGER/Line 2010 tract downloads](https://www2.census.gov/geo/tiger/TIGER2010/TRACT/2010/). Obtain all county files needed for each state; retain the complete shapefile components after extraction. | Tract IDs, internal points, and geometric centroids |
 | Road network | [Geofabrik U.S. extracts and historical files](https://download.geofabrik.de/north-america/us.html). Historical 2021 data are listed there. | OSRM road routing |
-| LIHTC properties | [HUD LIHTC program data](https://www.huduser.gov/portal/datasets/lihtc.html), property-level database. Record the release date; retain construction type and placed-in-service timing. | Treatment definition in the full paper; not read by the current commuting scripts |
+| LIHTC properties | [HUD LIHTC program data](https://www.huduser.gov/portal/datasets/lihtc.html), property-level database. Record the release date; retain construction type and placed-in-service timing. | Treatment definition and project scale |
 | Baseline tract covariates | [Census 2006–2010 ACS 5-year API catalog](https://api.census.gov/data/2010/acs/acs5.html). Select tract-level tables. | Matching covariates in the full paper |
 | Annual tract population | [NCI/SEER census tract population estimates](https://seer.cancer.gov/censustract-pops/), following the provider's request/access process. | Population denominator in the full paper |
 
-Do not substitute LODES 8/2020 boundaries for the LODES 7/2010 geography without a documented harmonization step. Preserve the exact release date and checksums of downloaded inputs. The precise historical OSM extract and OSRM build used for the research still need to be recorded; the year in the output filename alone is insufficient. SEER's county population download is not a substitute for tract population.
+## Software
 
-## Included research code
+R packages referenced: `MatchIt`, `Matrix`, `arrow`, `data.table`, `dplyr`, `fixest`, `lehdr`, `purrr`, `sf`, `tidyverse`.
 
-The repository now includes data-construction and main-analysis source in `research/`, in addition to the focused utilities described below. See [Research workflow](RESEARCH_WORKFLOW.md) for the file-by-file roles, execution order, and unresolved input handoffs. The earlier selection-only completeness inventory has been superseded by that workflow; full numerical replication has not been certified.
+Install Python packages with `pip install -r requirements.txt`. Jupyter is needed for the preparation/analysis notebooks.
 
-## Workflow
-
-1. `build_unique_tract_pairs_nodb.py`: stream processed OD files, deduplicate residence–workplace tract pairs, attach tract coordinates, and calculate straight-line distances.
-2. `query_osrm_road_distances.py`: query an OSRM routing service in parallel batches, saving checkpointed Parquet outputs with route success indicators.
-3. `merge_road_distance_batches.py`: consolidate routing batches into a lookup.
-4. `build_residence_panel_road.py`: join distances to employment flows and calculate employment-weighted commuting measures by residence tract and year.
-
-## Inputs and execution
-
-The pipeline expects upstream, processed inputs; it does not download or clean raw LODES files. Set `PROJECT_ROOT` to a prepared data directory containing:
-
-- `data_raw/LODES/OD_related/out_od_full_parquet_with_dist_both/od_full_<state>_<year>.parquet`
-- `data_raw/LODES/OD_related/cache/tract2010_points_from_shapefile.parquet`
-
-See each script for its input columns. Preserve tract identifiers as strings, including leading zeroes. A configured OSRM server and appropriate road-network extract are required for routing. The research uses a fixed road network, not historical annual road networks.
-
-```sh
-export PROJECT_ROOT=/path/to/prepared-data
-python code/build_unique_tract_pairs_nodb.py
-export INPUT_PATH="$PROJECT_ROOT/data_raw/LODES/OD_related/cache/unique_tract_pairs.parquet"
-export OUTPUT_DIR=/path/to/routing-batches
-export OSRM_URL=http://localhost:5000
-python code/query_osrm_road_distances.py
-export BATCHES_DIR="$OUTPUT_DIR"
-export OUTPUT_PATH="$PROJECT_ROOT/data_raw/LODES/OD_related/cache/tract_pair_road_distance_2021.parquet"
-python code/merge_road_distance_batches.py
-python code/build_residence_panel_road.py
-```
-
-Failed routes are missing, not zero-distance commutes. Distance averages exclude missing distances and nonpositive weights; intra-tract pairs use the existing straight-line fallback. Interpretation therefore depends on route coverage and this fallback. Full national routing is resource-intensive and was not rerun for this portfolio.
+Dependencies are not a fully pinned environment. See [Validation](VALIDATION.md) for what was and was not executed.

@@ -1,963 +1,639 @@
 [
   {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/00_common_snapshot.R",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/00_common_snapshot.R",
-    "source_sha256": "fc1d59332600c6b4840af504675b1f876c04ac1108cde19ad9cf4ccd70040228",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "db56b35693cabf589dcf1ff76f587f05d2d4c19ce22233b57d9c4a64db6d34c4"
-  },
-  {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/estimate_industries.R",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/estimate_industries.R",
-    "source_sha256": "610f080a3c355d36dd7e0730591cc582fe203fc7abf797eac3471f94effbff5d",
-    "changes": [],
-    "published_sha256": "610f080a3c355d36dd7e0730591cc582fe203fc7abf797eac3471f94effbff5d"
-  },
-  {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/industry_definitions.csv",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/industry_definitions.csv",
-    "source_sha256": "c8b6dbd6364c4367617b8f7ca20d5ef047de8e0ccb96de9fc3d4f231f1f34857",
-    "changes": [],
-    "published_sha256": "c8b6dbd6364c4367617b8f7ca20d5ef047de8e0ccb96de9fc3d4f231f1f34857"
-  },
-  {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/paper_preview/plot_industry.R",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/paper_preview/plot_industry.R",
-    "source_sha256": "91443201ead0c4912d4fec22aa5dbfaa9746b98ff487237d9ccdc55425b93746",
-    "changes": [],
-    "published_sha256": "91443201ead0c4912d4fec22aa5dbfaa9746b98ff487237d9ccdc55425b93746"
-  },
-  {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/report.py",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/report.py",
-    "source_sha256": "4fb5ab05b61fa441cd7ba4bbc92d1dc409e0bd98b9885cea3a1b4ef32d8ab47f",
-    "changes": [],
-    "published_sha256": "4fb5ab05b61fa441cd7ba4bbc92d1dc409e0bd98b9885cea3a1b4ef32d8ab47f"
-  },
-  {
-    "file": "research/output/research_extensions/22_industry_rac_wac_20261022/summarize.R",
-    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/summarize.R",
-    "source_sha256": "d8fc3f4c599e6342df9e725e394c680bdbb711fc0d4c76047a463d2d0468c2c1",
-    "changes": [],
-    "published_sha256": "d8fc3f4c599e6342df9e725e394c680bdbb711fc0d4c76047a463d2d0468c2c1"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/00_common_snapshot.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/00_common_snapshot.R",
-    "source_sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "79df3606ec3ceb585950374994943869b7026a39f02cce8b885f3259a5c23549"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/append_report.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/append_report.py",
-    "source_sha256": "f854d396efa2be412196d442f94d9a0ae751a276f5bdef8826385c2451df755d",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "937b81e177113011b186831431d72b7e9e8cf15efc83f126c50650dfd62502af"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/compare_geography.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/compare_geography.R",
-    "source_sha256": "f575995fc5416ee1f98a6867565b142f9992c7c54410cc064cc3a1f877364dbe",
-    "changes": [],
-    "published_sha256": "f575995fc5416ee1f98a6867565b142f9992c7c54410cc064cc3a1f877364dbe"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/diagnose_5km.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/diagnose_5km.R",
-    "source_sha256": "12345b8ca1b7c8cb42397f856f41543cb8f83d501e2f18de6ea314d68f2c4a24",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "582dbf3f56ecbba33ea3eff02d644193b409373d1375c69ed7a9403874eac2c1"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_H_isolated_subset.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_H_isolated_subset.R",
-    "source_sha256": "30f8b77f0e05837a21a3da88cbd3d36871a21ba9191b8cc21b4b95f2ab8c0bd1",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f161ad82223af0aa3b2bb710bf4ff0aaae69d8eeeaaf46aad97338dd5b389594"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_H_project_groups.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_H_project_groups.R",
-    "source_sha256": "1a46bffb7edbece5f26030804b23c94827d76d638f6db56bd7f8bf3dae829cbf",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "338300c1d021cab83c9281c13956bc70a5ac748ba849bc7d477a6ef808edfd54"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_common_HJ.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_common_HJ.R",
-    "source_sha256": "36e16b9b2d171f0535c1bc30e1eb811680fdbba6750daf98bad76119bf508b8d",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "bb28c8b71a0a41203c86bba46b73c0ed0685ec3ed2ac5e793eea11598d6073af"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_county_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_county_isolated.R",
-    "source_sha256": "2cbfa4649b6f0322d69ea17ffb65b07fef1c94e06a96178b96f5995168a06db4",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "ca3f05c3aa261df3cd878e7e8878fb3603b0339b05c995af9b4b773563a02881"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_full_cohort_rematch.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_full_cohort_rematch.R",
-    "source_sha256": "54bcc706c35bd2a35c30f99bf51101366cf6d9b2adbe0b99f615900342c244e8",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "ed7c31116872220e78b5d01407b86544b1a498959750e96d1f6b54bdf4fa59a2"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_long_pretrends.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_long_pretrends.R",
-    "source_sha256": "956c95d3f8c20fec685797f1e6cedadbcc2094d79ad380626982e7288afe69f6",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "37401dc7f6555f0e0ceb4a781d763aa514be4de55039d06af4ff6aad0e381a0b"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_population_levels.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_population_levels.R",
-    "source_sha256": "780976bb28b8966800dd30dea6dad2e93cdbf29f22df7d12c6171bb35887fa91",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "ba48330d817efe52673be4f2fa10632db3938c7bb773020b00cef5a088036d2e"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_spatial_regions.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_spatial_regions.R",
-    "source_sha256": "0ddc6027d02fa5bee75bcdd1b0a183ff1466b77ac01841367da197c825e19a2f",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "3ecac202cbe0d73facdda2fa590ec6d5a422a9d95140c94626239e0b05e9c969"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/estimate_state_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/estimate_state_isolated.R",
-    "source_sha256": "33bea3599ee435e1ef660bafdc36c724115ccdca3f6b3046e125bbf18e664cc4",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "55990c897bab00fb5b3b41b8f4cb8ef738edbcefb70ab30989326fc186cbf0de"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/match_center_surroundings.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/match_center_surroundings.R",
-    "source_sha256": "321fa63c929a27e3227c45a230205a455d37b3a6316b353e8936980fc015109c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "01441bde03d15b96082abfe630b900cba812e74e9a18796075b7ce0b8b05075e"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/match_regions.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/match_regions.R",
-    "source_sha256": "41a44568e612940b49d34ae4efae8e7a86b3bc3886a6bd9a2671152f677f121c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "a41edc63c2751b79dddef119ed27da00ee18f3e0af0856f7c60290ca1f8094de"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_H_isolated_subset.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_H_isolated_subset.R",
-    "source_sha256": "18e4b66cc4879f7f95cbbe9a1f2a4142d335a9e7e6b29f9a7e47a1c7a117d4fd",
-    "changes": [],
-    "published_sha256": "18e4b66cc4879f7f95cbbe9a1f2a4142d335a9e7e6b29f9a7e47a1c7a117d4fd"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_H_project_groups.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_H_project_groups.R",
-    "source_sha256": "ee8a5f179d4030f80b4d6217e843578baca468570caf6b9932d8fefd7fb99081",
-    "changes": [],
-    "published_sha256": "ee8a5f179d4030f80b4d6217e843578baca468570caf6b9932d8fefd7fb99081"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_common_HJ.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_common_HJ.R",
-    "source_sha256": "0dc2640034ab0cb85fb6999f4ca82e4bdab089b4e73276a324004b77dc99f45b",
-    "changes": [],
-    "published_sha256": "0dc2640034ab0cb85fb6999f4ca82e4bdab089b4e73276a324004b77dc99f45b"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_county_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_county_isolated.R",
-    "source_sha256": "3e6585d90095fceef3e18f23a71900693168995dd3f5562700698b54409cdb34",
-    "changes": [],
-    "published_sha256": "3e6585d90095fceef3e18f23a71900693168995dd3f5562700698b54409cdb34"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_full_cohort_rematch.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_full_cohort_rematch.R",
-    "source_sha256": "710178de26b4b984d477d08970a637caa03337e3fea1ec44bc180b537154d940",
-    "changes": [],
-    "published_sha256": "710178de26b4b984d477d08970a637caa03337e3fea1ec44bc180b537154d940"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_long_pretrends.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_long_pretrends.R",
-    "source_sha256": "debd27cb2d9fe212da875ef27ffca6be5d03fdc654552d360278a5a04446420a",
-    "changes": [],
-    "published_sha256": "debd27cb2d9fe212da875ef27ffca6be5d03fdc654552d360278a5a04446420a"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_population_levels.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_population_levels.R",
-    "source_sha256": "744736606be58215751cce0d4dbbcdad19c17bf98e13cd750e780117113288b1",
-    "changes": [],
-    "published_sha256": "744736606be58215751cce0d4dbbcdad19c17bf98e13cd750e780117113288b1"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_spatial_results.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_spatial_results.R",
-    "source_sha256": "3e922b1e99c2757abc66f928c68c283792d0f4868aac9da8c463629757133ed5",
-    "changes": [],
-    "published_sha256": "3e922b1e99c2757abc66f928c68c283792d0f4868aac9da8c463629757133ed5"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/plot_state_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/plot_state_isolated.R",
-    "source_sha256": "e290a404f0f9b7a1384fff3130948cb1e5e567bc7716763ae01a0b71689a5eba",
-    "changes": [],
-    "published_sha256": "e290a404f0f9b7a1384fff3130948cb1e5e567bc7716763ae01a0b71689a5eba"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/project_coordinates.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/project_coordinates.R",
-    "source_sha256": "2da2256314e0bcea0727a9d58503eb5fca5e08dbb1516de12779baa0608f9d97",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "c8c795de258f066ad351d6303a12ceb305cad1581e2f601191c411dd033ebe88"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/rematch_county_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/rematch_county_isolated.R",
-    "source_sha256": "6b9c53b944d9748c992a09771a9a14858d2bdb2e5d14d181dbefafcb9d1b78cb",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "d68c64f8baf6aca4f3ffc4017a155ee9e6f0c95d5ea0dde5700685fbd5999107"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/rematch_long_pretrends.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/rematch_long_pretrends.R",
-    "source_sha256": "4d04695a51c81295e65f23a88c49a813d92454ad9f231275bbd83608a8cced50",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "2fa62fb42fec7fcd5f151500af0af0462d647bd5ec53f1d017ee4829dcd51650"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/rematch_population_levels.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/rematch_population_levels.R",
-    "source_sha256": "e2ae0e2c7680200627f98de9a9e381ee62211e0528274b13e563e85e8fec7a8b",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "05e7a0fa9004db6115f52b93fbef16bd81c671dc6c423f80d75930b31a398f83"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/rematch_state_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/rematch_state_isolated.R",
-    "source_sha256": "c8d8495adc35b4165e12b548aee0ec6791dde3ed03b9466517c77ba06c20bb2c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "8654304ef50f0be26d143f863251cb867504c7b1b4d94ac0ebcc81b7557d88e4"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report.py",
-    "source_sha256": "13c112cb5123076f2502039f1fee2404145ebba7494078ddfefab6217a1c35d1",
-    "changes": [],
-    "published_sha256": "13c112cb5123076f2502039f1fee2404145ebba7494078ddfefab6217a1c35d1"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_H_isolated_subset.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_H_isolated_subset.py",
-    "source_sha256": "54e845e7b77fd6ff3f0c59afdf76f4c5483b48d846af1d5e9e0bc16620f73726",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "e92779a67d87bad0f0814c53e1ad15314d5ec8322df5a1fe122a495cdb6c9402"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_H_project_groups.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_H_project_groups.py",
-    "source_sha256": "64da8ac1e1cb09a0c9458b320d5476cb618c604177703abd4e0c67ea2aeed08e",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "cf2aa64073a2d8885cf0d11b6635afc5cf03321b6c6009eb843dd74bbe82fca4"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_common_HJ.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_common_HJ.py",
-    "source_sha256": "d0fbef9404c35150fa312918af25147492394f481edbb651c07e5ae0c3ce6150",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "736870f4e4fa0de46a6d360c8519fcdf76ff7818b12c2c4c47722126382d1253"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_county_isolated.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_county_isolated.py",
-    "source_sha256": "22d93c7a0c764a0421a6207c4b0f8a1936be7c7e3381bbea6719331c386f5930",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "0f01effa0757b8758fd0bd4473c8c113ed1d72ccffcabcd256e140ba212fb4a6"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_full_cohort_rematch.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_full_cohort_rematch.py",
-    "source_sha256": "39a016b90eb63982b49936eccd954e6e7063d7c72a7df11a366d96d40d762467",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "129c5acd47a6be664fe37f9a2cdeb4be535fb8a49350d29ba972a4728c376335"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_long_pretrends.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_long_pretrends.py",
-    "source_sha256": "959197ff4e20e8ab6c7900335c8b145ca752e7588853023b3b2c8ce861b59ce9",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "52b0ad0d899cde4ec2a09df4d588de027d02d773f2c5d2e5399852c749ab09f3"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_population_levels.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_population_levels.py",
-    "source_sha256": "773f798d0ec7e321040fb583111adf16a6165acfdc5857db56bb97ed52752c9a",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "aeea30d22bdc384ab28f64a4bce57d1ddd01a9cad2cab8032af9440df442fd41"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_spatial_results.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_spatial_results.py",
-    "source_sha256": "c817e5716716392562d96b962506a068db1a5055eae8a9fb278a5534873cb572",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "83bda06be7f77954e49a8c8887a457ef372eb8d31d5950dba19b1c4a1a3a6818"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/report_state_isolated.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/report_state_isolated.py",
-    "source_sha256": "8f529f38e80f45e07da1c3266a08a2c17cc33750668bfbbd37a117371c236b92",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f8a659e0639d1a0818696843a79356506ee138a1a963a412c999d697dc64834b"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/run.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/run.R",
-    "source_sha256": "94d64aca1be1597e81ee1add1abd485191e7df2d27fba9224ffc0476347e8db0",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "b303fa9ca304cd59ba0e0f0f7e269ba12a7716ac55f0ad17a5bd5697fc0115a0"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/RUN.sh",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/RUN.sh",
-    "source_sha256": "dd086a949500e761a6e022d7336cc10c6476ed02d704dcd94fe0165e1a69254b",
-    "changes": [],
-    "published_sha256": "dd086a949500e761a6e022d7336cc10c6476ed02d704dcd94fe0165e1a69254b"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/compare.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/compare.R",
-    "source_sha256": "681c7279833f9bc41b37177520b15bf81d2e1a1afc51406cd8f7ebfac0cedaaf",
-    "changes": [],
-    "published_sha256": "681c7279833f9bc41b37177520b15bf81d2e1a1afc51406cd8f7ebfac0cedaaf"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/estimate_guarded_regions.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/estimate_guarded_regions.R",
-    "source_sha256": "ceda979edf3811fdd2f31ba14cfea9eb325b7eef6e363598fd5a71ba2151a57c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f49089dd474d685d919aac7a58482df34f39eadedc9a0ec5e56d681c9e850738"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/match_guarded_regions.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/match_guarded_regions.R",
-    "source_sha256": "c55bcc80f55d408525f8264c21336a2c249a832c791d21bc7d44be831b0e874c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "19e77bbc2dc938a647dbe0606a7887f249184595e23c717516805f678ea2b867"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/plot_standalone.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/plot_standalone.R",
-    "source_sha256": "6fc3910dbba818567a3f6f8cfcb02d0f610773a36e9014572420048279be650d",
-    "changes": [],
-    "published_sha256": "6fc3910dbba818567a3f6f8cfcb02d0f610773a36e9014572420048279be650d"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/prepare.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/prepare.R",
-    "source_sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a",
-    "changes": [],
-    "published_sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/report.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/report.py",
-    "source_sha256": "e5fdec28cc4a43597a6b23d00886a93610853cedc0c20375b1036936846bdacb",
-    "changes": [],
-    "published_sha256": "e5fdec28cc4a43597a6b23d00886a93610853cedc0c20375b1036936846bdacb"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_o/validate.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/validate.R",
-    "source_sha256": "41e1842dd69c742486fdc3a66c123cadd31550be414daaeb76d5147555dd4221",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "e4f871b98723ee6441a7c8639aabf97023eb9cd4247d4cc8d64701b2188718a9"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/supplement.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/supplement.R",
-    "source_sha256": "440c17ba582d8b79fbe3e5cb491a6a4d5c420e56a565cfa9425e9c0598d9e2fa",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "430dd045a4be614c9e29a9e50462faf8d115995def36d5d38bd539166292daf3"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_H_isolated_subset.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_H_isolated_subset.R",
-    "source_sha256": "44b2493f9fa898c3867a770ad3d33d77eb472733e4a37803e147e181c49d0b76",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "e38cb8d00b5b5e0301d3fd0e4be007b76ec4eb1ec6f77dc317ec51b3ae7fd0be"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_H_project_groups.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_H_project_groups.R",
-    "source_sha256": "9c71d251677deb79aee3f643575d682337e8c9afcde78722862b37d5cc0eaff2",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "5aaf972a4cf47af3c180c5cbc7c99909389dceaf3984191c8e3bada4faba8e16"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_center_surroundings.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_center_surroundings.R",
-    "source_sha256": "4399b9f349068d5cf9bd69a2b6f5079f05addb6fab1d08f8558def28d9fb7a91",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "81808da08a7954a4bf6588d1248101c81c94a62f56bb9084edc935833929c961"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_county_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_county_isolated.R",
-    "source_sha256": "db3db20b328c380bdbeff60954c8a3743797abe07ee16cf708bdd45d7d352cef",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "01006baf5a0640b4d5bd1dfd4803b8e7a76b2072b666f3cc1508d3a99d9f88b7"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_county_isolated_growth.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_county_isolated_growth.R",
-    "source_sha256": "8ca6bb10426d2b7841bf05e9fe26c5eac9c0eb272466337af05d98da7cc93cd6",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "de7e7766fd4d2c4052b6e5b5f0be4eda1c57ada6aee97f55e207c5814caf4ac1"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_long_pretrends.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_long_pretrends.R",
-    "source_sha256": "c05292961dbad6c473e5f048b365a23b4e6abbbe0db55db8518c3cbc60c00e9a",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "1d5ee5eb393517fa4ccc1a4925c4e78123e4eb09879246c7f50c0d31221bdd2e"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_matching.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_matching.R",
-    "source_sha256": "63913cb918494a7a46d2edaf3a765e199f8eceaf0f474a05a672da938b23cf4d",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "109292e053d69d3b70177647309339f0754bccb141134aeb25422b3149e2ec4c"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_population_levels.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_population_levels.R",
-    "source_sha256": "2ad08539f372bcec0d6547cb9411058b7f9e09f88f9e8e7db873bac344f863bc",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "834e3ad965d096e7445ab557ee451385ac6a1102a407497b4fbe8de9b64bc5e8"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/validate_state_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/validate_state_isolated.R",
-    "source_sha256": "2b12e4e8b501817e7d60e1218eb6f3d070f75c80d27cf1425be51331a3f36f8d",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "93447ee13688486f2ee24116cf4b5b47f870bf7131bff90f5c42b708498214bd"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/write_matching_report.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/write_matching_report.py",
-    "source_sha256": "85eb3f41901f351f0a449e4afdd328769788e550c651293429fcd957d5d24f8c",
-    "changes": [],
-    "published_sha256": "85eb3f41901f351f0a449e4afdd328769788e550c651293429fcd957d5d24f8c"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/RUN.sh",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/RUN.sh",
-    "source_sha256": "6b171c6718f7e4ad888914cdcd9c96cdba0f568e21d8eba8a0bf9bf73b811850",
-    "changes": [],
-    "published_sha256": "6b171c6718f7e4ad888914cdcd9c96cdba0f568e21d8eba8a0bf9bf73b811850"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/audit_guards.R",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/audit_guards.R",
-    "source_sha256": "37efa606cb6460b65ea330adb8709a5f3c2c2341cfecaf4e5f69604a6725a15f",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f4f22961fee787663b85807ca0b1e0d66793fc66889e606bbe7b312ef79b4f28"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/commute_level.R",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/commute_level.R",
-    "source_sha256": "f708c123d1920be6b79e56cad8ec0da7c7c031d2255880cdd0afa1ecfbe3666a",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "fd44395361a1636cc8b24b4112174003dd080e15da44840bb3c5ee56de1612b8"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/compare_versions.R",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/compare_versions.R",
-    "source_sha256": "10881116c520edb6e5abd1aa6cab1e1fc032b8803cecc4e83647f3c1aff6f003",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "b0f6ce6eada294b97723e998252cafea7f3758fcdb23233dff1b4fc1b8a12e3e"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/main_state_guarded.R",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/main_state_guarded.R",
-    "source_sha256": "c1750a37d6944adf9ea015127be5355bdcb5b09bf3ffaa64d083e2fee1ad0121",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "a58b29deba5789d0172f94bba12613ebe30fb34dc4591e335a5e29cc2fd537f7"
-  },
-  {
-    "file": "research/output/research_extensions/26_main_state_guarded_matching/validate_and_report.py",
-    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/validate_and_report.py",
-    "source_sha256": "c87946a098ee7119adfce007c4a4dd27520da9ebd7501ea7407230bf376d1621",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "a6234989c776dc03390b1559ac4f845b0ed04abd145162429d68b852f4435c02"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/RUN.sh",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/RUN.sh",
-    "source_sha256": "6f90368ae42f4741cc8aa607b24d9a2ce090f07b0ffee396109a08737526b17e",
-    "changes": [],
-    "published_sha256": "6f90368ae42f4741cc8aa607b24d9a2ce090f07b0ffee396109a08737526b17e"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/coverage.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/coverage.R",
-    "source_sha256": "57d6fe44578301e0d5839c7891961a1a661b159c6adfe37463c26d6fe3fb3184",
-    "changes": [],
-    "published_sha256": "57d6fe44578301e0d5839c7891961a1a661b159c6adfe37463c26d6fe3fb3184"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/descriptives.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/descriptives.R",
-    "source_sha256": "d0776b8f1e56fbf800ac36faec6a8d370dfc8c64b461b4753963f56ba77a8011",
-    "changes": [],
-    "published_sha256": "d0776b8f1e56fbf800ac36faec6a8d370dfc8c64b461b4753963f56ba77a8011"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/engine.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/engine.R",
-    "source_sha256": "a306e63acadc462982f0813669b49e09f87c8beade57d0e9ae25cf811e24e32d",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "56af41600f59dce78e4c0afaf6c6858e82d967c3911c7cad802148eb963c629c"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/estimate_core.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_core.R",
-    "source_sha256": "1310e6bf1dbce079fe837b8d2c741da118d4c91411f1e114ed49ee2cbee9250f",
-    "changes": [],
-    "published_sha256": "1310e6bf1dbce079fe837b8d2c741da118d4c91411f1e114ed49ee2cbee9250f"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/estimate_extensions.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_extensions.R",
-    "source_sha256": "6fca168d5dd62d0c3c0c2de25cedf4e91dd7933d6cfe3bc0a6e0343fb667d8f4",
-    "changes": [],
-    "published_sha256": "6fca168d5dd62d0c3c0c2de25cedf4e91dd7933d6cfe3bc0a6e0343fb667d8f4"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/estimate_industry.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_industry.R",
-    "source_sha256": "9dcbec5f8487220a02d49b3d1c12122112ce3c9dfe232dc52bd2e54ae4338794",
-    "changes": [],
-    "published_sha256": "9dcbec5f8487220a02d49b3d1c12122112ce3c9dfe232dc52bd2e54ae4338794"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/match_intensity.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/match_intensity.R",
-    "source_sha256": "18b5923ed0b3989b4831cead58c482d4fe499554720c9d8c37fec9825e134b8c",
-    "changes": [],
-    "published_sha256": "18b5923ed0b3989b4831cead58c482d4fe499554720c9d8c37fec9825e134b8c"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/matching_generator_snapshot.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/matching_generator_snapshot.R",
-    "source_sha256": "c1750a37d6944adf9ea015127be5355bdcb5b09bf3ffaa64d083e2fee1ad0121",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "a58b29deba5789d0172f94bba12613ebe30fb34dc4591e335a5e29cc2fd537f7"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/paper_preview/event_figures.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/event_figures.R",
-    "source_sha256": "c8afdacd8dd4b68aaeee49498c268aec252e4dea809768a17ff3f9da34add4b8",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "cfee2b309c61aa48cb406aa3bc2fde92154747537093cd0c357bf8e1ffc971a8"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/paper_preview/figures.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/figures.R",
-    "source_sha256": "578ca61641d62d9b8e0d46a04973b2c663180f0b1dffa242ab1bdfe5fae77c16",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "4df6c2c6c53f092973e894e5ad9e5eacae4acf8e901588125754115e32f572a3"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/paper_preview/new_figures.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/new_figures.R",
-    "source_sha256": "40cda80586f2ccd58e874af2b59f7819860d9fb5d65ca9ac386b6157190fcd91",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "7ec17fcdf4e8e87153699fd3e3d8be6a4d693c81cbdcae95725a6747072affcb"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/paper_preview/primary_figure.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/primary_figure.R",
-    "source_sha256": "2f2bedd60f78861997430cfb0429ebedfca9e217b0fd02f85dabca50c3ff38f6",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "aceb11e9af329390177557fb3184cd8aafc1334aa950612290289107cd30a66d"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/prepare_panel.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/prepare_panel.R",
-    "source_sha256": "9c71cd9ffca2839bdb55139f79930538dbed26e0633e9068c3b2bf963f39c8a2",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "853c6445e3bd078f1bf87789989a32a438fbd575ed96222145bfbbce791dda9a"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/present.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/present.R",
-    "source_sha256": "6d0b9ab48c1032332df953e0d5eec07d281f55e29ba8f41f97365c520b35d951",
-    "changes": [],
-    "published_sha256": "6d0b9ab48c1032332df953e0d5eec07d281f55e29ba8f41f97365c520b35d951"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/primary_wac/download_primary_wac.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/download_primary_wac.R",
-    "source_sha256": "30fb23a9601ed44ab0bba559a8386b78fe163ab6885c4f1a0937b29a8a736453",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "84b3cacb9f6448f32079022a5511aa7ddfa0a05d96ea68f9d726779a01df23aa"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/primary_wac/estimate_primary_wac.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/estimate_primary_wac.R",
-    "source_sha256": "a8c7d0bb5fa33343df82414680da80c32d9bd8623f43a18858ed401bb2ed22ad",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "b6d2c0309f6c6abd0c6b08208baacb3e97edd94395211de7778bc51fa7c12b6d"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/report.py",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/report.py",
-    "source_sha256": "2301e98cf1f7a84d251ba2a5c33c22a6fd2ffb430d6a0e24b7cf107dae054cb2",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "4a154ff6294cd5e4acd6a6ee7cde4068fba58bfff9d976c2fb0520ba16bc2038"
-  },
-  {
-    "file": "research/output/research_extensions/28_paper_state_guarded_refresh/validate_design.R",
-    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/validate_design.R",
-    "source_sha256": "db7e9440a7ed89a30c9746eb084ccc2b0647fe7fe35e5fd95c3b62f6b5ed9c12",
-    "changes": [],
-    "published_sha256": "db7e9440a7ed89a30c9746eb084ccc2b0647fe7fe35e5fd95c3b62f6b5ed9c12"
-  },
-  {
-    "file": "research/scripts/data_process/build_residence_panel_road.py",
-    "original_relative_path": "scripts/data_process/build_residence_panel_road.py",
-    "source_sha256": "10035f27c2c5305971c1fd84efaa61f0434a9d90b96ead7226655b093eafd5c9",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "3fb5170423e36cd2553a88e006857e2f0d9cf44a786f99f1e765fb835a62e352"
-  },
-  {
-    "file": "research/scripts/data_process/build_tract2010_points_from_tigerline.R",
-    "original_relative_path": "scripts/data_process/build_tract2010_points_from_tigerline.R",
-    "source_sha256": "87a3539e1065de0c6bd63b771a3eb21fbdece7fb6131e29894d9ca7d0fd910e2",
-    "changes": [
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "05045768c56241f550ed4566ea0276212412e3cfbb5accea2db351af98a5493a"
-  },
-  {
-    "file": "research/scripts/data_process/build_unique_tract_pairs.py",
-    "original_relative_path": "scripts/data_process/build_unique_tract_pairs.py",
-    "source_sha256": "96b6b91b045e779b6cc6e71eb007a1b1489bd287879da070a90b3dd6162a1b18",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "8be47379278aed57a89e0a114911822f7d57e307a4cf71585ee78d8a38e5c022"
-  },
-  {
-    "file": "research/scripts/data_process/build_unique_tract_pairs_nodb.py",
-    "original_relative_path": "scripts/data_process/build_unique_tract_pairs_nodb.py",
-    "source_sha256": "4f1e211ae81c378fb0039d155cc24753b31b42411eea80f7aa1db08d38f91bf2",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "e0bfa83243186c7bc7434dab4dae2ca158b8aced8ff10a495f907851af9827eb"
-  },
-  {
-    "file": "research/scripts/data_process/compute_od_pair_distance_from_shapefile_points.R",
-    "original_relative_path": "scripts/data_process/compute_od_pair_distance_from_shapefile_points.R",
-    "source_sha256": "789b77399c01ea38ec9b3aa100a855fa7cbaecf91bc687146574cdc7ce3f6345",
-    "changes": [
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "5e0148d7a91d471c72e9cffbeee0343694623928fae7e356db76f59c790dde8f"
-  },
-  {
-    "file": "research/scripts/data_process/create_od_panels_local.py",
-    "original_relative_path": "scripts/data_process/create_od_panels_local.py",
-    "source_sha256": "02120f22cdbd1b68d257b24ea527248ab7e899a14f5dda9a5e8eff2de501db1c",
-    "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "692ed170fe703b376df66f81a101c3bfdcb126def3e2c389b62d9c26ee349117"
-  },
-  {
-    "file": "research/scripts/data_process/create_od_panels_ultra_efficient.py",
-    "original_relative_path": "scripts/data_process/create_od_panels_ultra_efficient.py",
-    "source_sha256": "b9dd5dffa0c73e9a74b933714377aecca1b4c2114058345dad70eb2d72252b75",
-    "changes": [],
-    "published_sha256": "b9dd5dffa0c73e9a74b933714377aecca1b4c2114058345dad70eb2d72252b75"
-  },
-  {
-    "file": "research/scripts/data_process/download_2010_2019_lodes.R",
+    "file": "code/data_process/download_2010_2019_lodes.R",
     "original_relative_path": "scripts/data_process/download_2010_2019_lodes.R",
     "source_sha256": "f28cd29e3f29cd8aba23b4920dbcaf365bafcee83c711b8a1e77373c863b2e67",
+    "published_sha256": "af0684dbd574d19ca53b94c314058af7964c5a52566ba656f7b2304f1059bfb8",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "af0684dbd574d19ca53b94c314058af7964c5a52566ba656f7b2304f1059bfb8"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/data_process/download_primary_rac_2010_2019.R",
+    "file": "code/data_process/download_primary_rac_2010_2019.R",
     "original_relative_path": "scripts/data_process/download_primary_rac_2010_2019.R",
     "source_sha256": "529d4cee3f655a5b12dc155b1030d7e39f9a41d590bc2239dbf2c6b31ed5ea2d",
+    "published_sha256": "aac73088e66ebd3761154b9be4c8aa007ad79b99a7644bdfcbc1a73c43e39f40",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "aac73088e66ebd3761154b9be4c8aa007ad79b99a7644bdfcbc1a73c43e39f40"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/data_process/merge_od_with_lihtc.py",
-    "original_relative_path": "scripts/data_process/merge_od_with_lihtc.py",
-    "source_sha256": "25a445fa4710b3c6b8e2b7265f1b93b1ac3aacb1f253d5cf3da5f2cf7fa6ad77",
-    "changes": [],
-    "published_sha256": "25a445fa4710b3c6b8e2b7265f1b93b1ac3aacb1f253d5cf3da5f2cf7fa6ad77"
-  },
-  {
-    "file": "research/scripts/data_process/merge_road_distance_batches.py",
-    "original_relative_path": "scripts/data_process/merge_road_distance_batches.py",
-    "source_sha256": "19d1fe94ad5f2e969ee72b6735e397d5862af9cdb4cdf18f1e6ef389ea9a2699",
-    "changes": [],
-    "published_sha256": "19d1fe94ad5f2e969ee72b6735e397d5862af9cdb4cdf18f1e6ef389ea9a2699"
-  },
-  {
-    "file": "research/scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
-    "source_sha256": "f18a9d78f915738d3f6a8fcef1a6179c4e1f1cdfd8606463599c3a5d9153b2b0",
+    "file": "code/data_process/build_tract2010_points_from_tigerline.R",
+    "original_relative_path": "scripts/data_process/build_tract2010_points_from_tigerline.R",
+    "source_sha256": "87a3539e1065de0c6bd63b771a3eb21fbdece7fb6131e29894d9ca7d0fd910e2",
+    "published_sha256": "05045768c56241f550ed4566ea0276212412e3cfbb5accea2db351af98a5493a",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Cleared saved outputs, execution counts and cell metadata; code order preserved.",
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "26bec1cc94e09bde1e24973fd804b863e841d61e038d1a871a579a3db11335e8"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/data_process/notebooks/data prep - lihtc property.ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - lihtc property.ipynb",
-    "source_sha256": "f9c5ebd182f20f8f7b2175494258ea9483ee92daf012c7431546735cb446e5e7",
+    "file": "code/data_process/compute_od_pair_distance_from_shapefile_points.R",
+    "original_relative_path": "scripts/data_process/compute_od_pair_distance_from_shapefile_points.R",
+    "source_sha256": "789b77399c01ea38ec9b3aa100a855fa7cbaecf91bc687146574cdc7ce3f6345",
+    "published_sha256": "5e0148d7a91d471c72e9cffbeee0343694623928fae7e356db76f59c790dde8f",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Cleared saved outputs, execution counts and cell metadata; code order preserved.",
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "7031461e8e6b0f9b2c9b1fb94f0937e056cc45721a27090314784f15781a9e3a"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
-    "source_sha256": "94c6288348783c7235bf40c948eb46713b0a9c4afafe374641abc5f84adb59a1",
+    "file": "code/data_process/build_unique_tract_pairs_nodb.py",
+    "original_relative_path": "scripts/data_process/build_unique_tract_pairs_nodb.py",
+    "source_sha256": "4f1e211ae81c378fb0039d155cc24753b31b42411eea80f7aa1db08d38f91bf2",
+    "published_sha256": "e0bfa83243186c7bc7434dab4dae2ca158b8aced8ff10a495f907851af9827eb",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Cleared saved outputs, execution counts and cell metadata; code order preserved.",
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "74bcf857e287b1374bf11959eddce9de8a1d8afe88521c8b9f55bf2d5523af0a"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
-    "original_relative_path": "scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
-    "source_sha256": "ae60e2e2c354bdf91d4414c0a4d0817e7b21695c84a8ed9947d7aa2bc7fdc542",
-    "changes": [
-      "Cleared saved outputs, execution counts and cell metadata; code order preserved.",
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "29d97797eafa95259b6da622bde01ac7ab363a213c250de1fb41757cd0a232dc"
-  },
-  {
-    "file": "research/scripts/data_process/query_osrm_road_distances.py",
+    "file": "code/data_process/query_osrm_road_distances.py",
     "original_relative_path": "scripts/data_process/query_osrm_road_distances.py",
     "source_sha256": "ce2ec2995cd6887c089b08b6771452feb64c892472052a85784013dc19e69d8b",
-    "changes": [],
-    "published_sha256": "ce2ec2995cd6887c089b08b6771452feb64c892472052a85784013dc19e69d8b"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/RUN.sh",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/RUN.sh",
-    "source_sha256": "0934a86c10c6f1b5e1e042946d7c9bb71cd4981162207b42941dd54ae1376368",
-    "changes": [],
-    "published_sha256": "0934a86c10c6f1b5e1e042946d7c9bb71cd4981162207b42941dd54ae1376368"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.R",
-    "source_sha256": "2527b4c5cfa3817e073d00c7c83f1c4de381654d00f8e88dc7c0a7364134abae",
-    "changes": [],
-    "published_sha256": "2527b4c5cfa3817e073d00c7c83f1c4de381654d00f8e88dc7c0a7364134abae"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/validate_7km_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/validate_7km_isolated.R",
-    "source_sha256": "f6fb64b1bfba075a940e841b3d9cb356e4c0228c0c8d49b1ccbe6b9038ce1180",
-    "changes": [],
-    "published_sha256": "f6fb64b1bfba075a940e841b3d9cb356e4c0228c0c8d49b1ccbe6b9038ce1180"
-  },
-  {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/estimate_7km_isolated.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/estimate_7km_isolated.R",
-    "source_sha256": "fb9ea5d6b92d841335267c14c6a85fdc6e67b0eb3e6f596ff13731f3a3b82697",
+    "published_sha256": "ce2ec2995cd6887c089b08b6771452feb64c892472052a85784013dc19e69d8b",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "907aacd06869bae8c2429ce837e8daade3043b0b65f7d91f7e724cbaac33b73e"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.py",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.py",
-    "source_sha256": "3fce2d7e545edfe8860ab65a5793a7e3f5a35ec85717a53e18a540a939de1079",
+    "file": "code/data_process/merge_road_distance_batches.py",
+    "original_relative_path": "scripts/data_process/merge_road_distance_batches.py",
+    "source_sha256": "19d1fe94ad5f2e969ee72b6735e397d5862af9cdb4cdf18f1e6ef389ea9a2699",
+    "published_sha256": "19d1fe94ad5f2e969ee72b6735e397d5862af9cdb4cdf18f1e6ef389ea9a2699",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f39b0859e55d67a9e602b99e6a119784eda14113f9d35b7b3196b3f637f4eb6e"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/match_7km_H.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/match_7km_H.R",
-    "source_sha256": "80cbbf9e9f638da91be51835979e441d3709d0f25e5e9d9789536920c64b6360",
+    "file": "code/data_process/build_residence_panel_road.py",
+    "original_relative_path": "scripts/data_process/build_residence_panel_road.py",
+    "source_sha256": "10035f27c2c5305971c1fd84efaa61f0434a9d90b96ead7226655b093eafd5c9",
+    "published_sha256": "3fb5170423e36cd2553a88e006857e2f0d9cf44a786f99f1e765fb835a62e352",
+    "original_cell_indices": null,
+    "evidence": "LODES/geometry/commute or primary-job preparation dependency of final models.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "5c3b9cab4128b9b41b3f8bfb6ba9c69b12b1a5eb6c206f994c231b0b8417d87f"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_cache.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_cache.R",
-    "source_sha256": "2e83f53dd78e4bca02ac3b06d140461f300ad4e13d5e6249536c636864cfac64",
+    "file": "code/data_process/data prep - lihtc property.ipynb",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - lihtc property.ipynb",
+    "source_sha256": "f9c5ebd182f20f8f7b2175494258ea9483ee92daf012c7431546735cb446e5e7",
+    "published_sha256": "f3b70367c6a044c1396402d97899a2e224a2f8241e8ed2d8a392e3063e2f1549",
+    "original_cell_indices": null,
+    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "f10b1e4cd71e8e7af1acf4b872852ba54d78a9f20e0f8c79e46cb6057d9271b3"
+      "Notebook outputs and execution counts removed.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_eligibility.R",
-    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_eligibility.R",
-    "source_sha256": "7dc0900d499bb25068a9ad37dcfc180275d4f6642433b67661e9b083dc94b53e",
+    "file": "code/data_process/data prep - 2010 census data (controls).ipynb",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
+    "source_sha256": "f18a9d78f915738d3f6a8fcef1a6179c4e1f1cdfd8606463599c3a5d9153b2b0",
+    "published_sha256": "48c4f5c5212169d0397911de677e7188bc379d9122e7c127a57eaa9696106f73",
+    "original_cell_indices": null,
+    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
     "changes": [
-      "Replaced original project-root paths with working-directory-relative paths. Run from research/. Legacy external input paths still require configuration."
-    ],
-    "published_sha256": "b6de6d828720db70013ee704781118d8c80353c4fabc33d74511aa8e4bd749e8"
+      "Notebook outputs and execution counts removed.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
   },
   {
-    "file": "research/scripts/event_study_analysis/robustness_spec_a_county_trajectories.R",
+    "file": "code/data_process/data prep - merge lodes outcomes.ipynb",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
+    "source_sha256": "94c6288348783c7235bf40c948eb46713b0a9c4afafe374641abc5f84adb59a1",
+    "published_sha256": "3d52768e7960b31c3b7617edef15ff6b8b2debc082173e08692742b67e8d8a1d",
+    "original_cell_indices": null,
+    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "changes": [
+      "Notebook outputs and execution counts removed.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
+    "original_relative_path": "scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
+    "source_sha256": "ae60e2e2c354bdf91d4414c0a4d0817e7b21695c84a8ed9947d7aa2bc7fdc542",
+    "published_sha256": "b414f9041f10021ee2f5cb5f54d4e1f2d501bfd4ade4e36dcab98621409ad230",
+    "original_cell_indices": null,
+    "evidence": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "changes": [
+      "Notebook outputs and execution counts removed.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/prepare_panel.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/prepare_panel.R",
+    "source_sha256": "9c71cd9ffca2839bdb55139f79930538dbed26e0633e9068c3b2bf963f39c8a2",
+    "published_sha256": "853c6445e3bd078f1bf87789989a32a438fbd575ed96222145bfbbce791dda9a",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/engine.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/engine.R",
+    "source_sha256": "a306e63acadc462982f0813669b49e09f87c8beade57d0e9ae25cf811e24e32d",
+    "published_sha256": "56af41600f59dce78e4c0afaf6c6858e82d967c3911c7cad802148eb963c629c",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/match_intensity.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/match_intensity.R",
+    "source_sha256": "18b5923ed0b3989b4831cead58c482d4fe499554720c9d8c37fec9825e134b8c",
+    "published_sha256": "18b5923ed0b3989b4831cead58c482d4fe499554720c9d8c37fec9825e134b8c",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/validate_design.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/validate_design.R",
+    "source_sha256": "db7e9440a7ed89a30c9746eb084ccc2b0647fe7fe35e5fd95c3b62f6b5ed9c12",
+    "published_sha256": "5528678c8abef4b5076d1e56a8e7e81583794edc447e1e3da539d7d941fa2cf8",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/estimate_core.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_core.R",
+    "source_sha256": "1310e6bf1dbce079fe837b8d2c741da118d4c91411f1e114ed49ee2cbee9250f",
+    "published_sha256": "25dd73937d0ff32744a2dc72fc1b180efa8aa00ca66d132ffa4eb1c7dc509fa9",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/estimate_extensions.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_extensions.R",
+    "source_sha256": "6fca168d5dd62d0c3c0c2de25cedf4e91dd7933d6cfe3bc0a6e0343fb667d8f4",
+    "published_sha256": "57160dbb4f23eb673c44e5fef1b3d1580a529f2164431a5fb94a6e07921f5f06",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/estimate_industry.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/estimate_industry.R",
+    "source_sha256": "9dcbec5f8487220a02d49b3d1c12122112ce3c9dfe232dc52bd2e54ae4338794",
+    "published_sha256": "978b948267b4e4dfefc38050e61e471e2557125f0e6b0c56997357fe572146b3",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/descriptives.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/descriptives.R",
+    "source_sha256": "d0776b8f1e56fbf800ac36faec6a8d370dfc8c64b461b4753963f56ba77a8011",
+    "published_sha256": "ffb421e724d9eb63866fcaebf6a295564bb1521a4334ddce4b998caf43714d71",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/coverage.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/coverage.R",
+    "source_sha256": "57d6fe44578301e0d5839c7891961a1a661b159c6adfe37463c26d6fe3fb3184",
+    "published_sha256": "d7152be924a5d55046b66ad4060c9329934a880355fd57ce77f24648813b183b",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/present.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/present.R",
+    "source_sha256": "6d0b9ab48c1032332df953e0d5eec07d281f55e29ba8f41f97365c520b35d951",
+    "published_sha256": "68452e82eaa7e72f198f3fa2b84df17ad287d26fcf4db72db26dc74b24c7b56a",
+    "original_cell_indices": null,
+    "evidence": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/matching/main_state_guarded.R",
+    "original_relative_path": "output/research_extensions/26_main_state_guarded_matching/main_state_guarded.R",
+    "source_sha256": "c1750a37d6944adf9ea015127be5355bdcb5b09bf3ffaa64d083e2fee1ad0121",
+    "published_sha256": "a58b29deba5789d0172f94bba12613ebe30fb34dc4591e335a5e29cc2fd537f7",
+    "original_cell_indices": null,
+    "evidence": "Generates the exact state-matched pairs consumed by stage28.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/figures.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/figures.R",
+    "source_sha256": "578ca61641d62d9b8e0d46a04973b2c663180f0b1dffa242ab1bdfe5fae77c16",
+    "published_sha256": "bceaf977a1b8749c56e114b001e003beb79e8de8e9064d80964d3863e379a265",
+    "original_cell_indices": null,
+    "evidence": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/event_figures.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/event_figures.R",
+    "source_sha256": "c8afdacd8dd4b68aaeee49498c268aec252e4dea809768a17ff3f9da34add4b8",
+    "published_sha256": "eb598a250b27323a50ffafc85712a243ce8a48dbea29d3338813a8a20d8c8ff6",
+    "original_cell_indices": null,
+    "evidence": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/new_figures.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/new_figures.R",
+    "source_sha256": "40cda80586f2ccd58e874af2b59f7819860d9fb5d65ca9ac386b6157190fcd91",
+    "published_sha256": "7b285b0c106ec8c214aac1412fe0ca73861cb8ee62c9b9045a88b864864757d8",
+    "original_cell_indices": null,
+    "evidence": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/primary_figure.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/primary_figure.R",
+    "source_sha256": "2f2bedd60f78861997430cfb0429ebedfca9e217b0fd02f85dabca50c3ff38f6",
+    "published_sha256": "7434f3f171bd4dc67a8f6538ad8e58d85bf952b40fe0c7f584d9bc9c40378dc7",
+    "original_cell_indices": null,
+    "evidence": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/industry_definitions.csv",
+    "original_relative_path": "output/research_extensions/22_industry_rac_wac_20261022/industry_definitions.csv",
+    "source_sha256": "c8b6dbd6364c4367617b8f7ca20d5ef047de8e0ccb96de9fc3d4f231f1f34857",
+    "published_sha256": "c8b6dbd6364c4367617b8f7ca20d5ef047de8e0ccb96de9fc3d4f231f1f34857",
+    "original_cell_indices": null,
+    "evidence": "Static sector labels read by final industry figure.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/download_primary_wac.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/download_primary_wac.R",
+    "source_sha256": "30fb23a9601ed44ab0bba559a8386b78fe163ab6885c4f1a0937b29a8a736453",
+    "published_sha256": "84b3cacb9f6448f32079022a5511aa7ddfa0a05d96ea68f9d726779a01df23aa",
+    "original_cell_indices": null,
+    "evidence": "Primary-job WAC appendix input.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/main/estimate_primary_wac.R",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/estimate_primary_wac.R",
+    "source_sha256": "a8c7d0bb5fa33343df82414680da80c32d9bd8623f43a18858ed401bb2ed22ad",
+    "published_sha256": "00ea5301815545af91a96625a522d637e228ce6b44dda0c8a797a5ead2e89bc3",
+    "original_cell_indices": null,
+    "evidence": "Primary-WAC estimates consumed by final primary_comparison figure.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/build_primary_rac_panel.R",
+    "original_relative_path": "scripts/event_study_analysis/research_extensions/13_primary_rac.R",
+    "source_sha256": "0ddf4a860e621fa8d3fb8fd634987debaebf292c4f83a77e1d094cd825424ee8",
+    "published_sha256": "17b9ec47c96d34a64d81ead4864156a450e89323ca22daf340ccad79e7c7a8f9",
+    "original_cell_indices": null,
+    "evidence": "Extracted original join block producing primary_rac panel used by final estimate_extensions.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/build_near_far_panel.R",
+    "original_relative_path": "scripts/event_study_analysis/research_extensions/03_near_far_employment.R",
+    "source_sha256": "6652d2add78a0c6361b20e887321246aeced0df77bafb9e18228c3611804edf8",
+    "published_sha256": "b647a37ce5ec9abbcc574f8d80f1a402bd451ed074ea75e22d36dd11d44b8919",
+    "original_cell_indices": null,
+    "evidence": "Original prepare block computes near/far at 5/10/20km consumed by final estimate_extensions; old regressions omitted.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/run.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/run.R",
+    "source_sha256": "94d64aca1be1597e81ee1add1abd485191e7df2d27fba9224ffc0476347e8db0",
+    "published_sha256": "40331bac20c4331287a840ee23bebb11e8fdade4b18effef72a2becc5cd1aeea",
+    "original_cell_indices": null,
+    "evidence": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/project_coordinates.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/project_coordinates.R",
+    "source_sha256": "2da2256314e0bcea0727a9d58503eb5fca5e08dbb1516de12779baa0608f9d97",
+    "published_sha256": "c8c795de258f066ad351d6303a12ceb305cad1581e2f601191c411dd033ebe88",
+    "original_cell_indices": null,
+    "evidence": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/match_regions.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/match_regions.R",
+    "source_sha256": "41a44568e612940b49d34ae4efae8e7a86b3bc3886a6bd9a2671152f677f121c",
+    "published_sha256": "a41edc63c2751b79dddef119ed27da00ee18f3e0af0856f7c60290ca1f8094de",
+    "original_cell_indices": null,
+    "evidence": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/match_center_surroundings.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/match_center_surroundings.R",
+    "source_sha256": "321fa63c929a27e3227c45a230205a455d37b3a6316b353e8936980fc015109c",
+    "published_sha256": "01441bde03d15b96082abfe630b900cba812e74e9a18796075b7ce0b8b05075e",
+    "original_cell_indices": null,
+    "evidence": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/rematch_state_isolated.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/rematch_state_isolated.R",
+    "source_sha256": "c8d8495adc35b4165e12b548aee0ec6791dde3ed03b9466517c77ba06c20bb2c",
+    "published_sha256": "8654304ef50f0be26d143f863251cb867504c7b1b4d94ac0ebcc81b7557d88e4",
+    "original_cell_indices": null,
+    "evidence": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/common.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/00_common_snapshot.R",
+    "source_sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912",
+    "published_sha256": "79df3606ec3ceb585950374994943869b7026a39f02cce8b885f3259a5c23549",
+    "original_cell_indices": null,
+    "evidence": "Shared input definitions for original spatial preparation; original county-pair audit is an upstream dependency.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/legacy_county_pairs.R",
     "original_relative_path": "scripts/event_study_analysis/robustness_spec_a_county_trajectories.R",
     "source_sha256": "eca61bc73e82e39a719d3853e1f204ae71a5a3fa93a125da8c857f3381506afb",
+    "published_sha256": "24de3a12899fb61c63ce70869d27156873a0f8a83c177a15be36ceee9b8c9e17",
+    "original_cell_indices": null,
+    "evidence": "Only for frozen input checks in spatial common.R; not used as final main effect specification.",
     "changes": [
-      "Configured root for research working directory; legacy LIHTC/LODES locations are under legacy_inputs/ and require input setup."
-    ],
-    "published_sha256": "b38ee7dd02a8275d39cfe01e41df939faa0d0e25a163a98e3907b45e044bc330"
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/prepare_7km_cache.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_cache.R",
+    "source_sha256": "2e83f53dd78e4bca02ac3b06d140461f300ad4e13d5e6249536c636864cfac64",
+    "published_sha256": "f10b1e4cd71e8e7af1acf4b872852ba54d78a9f20e0f8c79e46cb6057d9271b3",
+    "original_cell_indices": null,
+    "evidence": "7km input construction reused by final stage-o; stage-n estimators excluded.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/data_process/spatial/prepare_7km_eligibility.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_eligibility.R",
+    "source_sha256": "7dc0900d499bb25068a9ad37dcfc180275d4f6642433b67661e9b083dc94b53e",
+    "published_sha256": "b6de6d828720db70013ee704781118d8c80353c4fabc33d74511aa8e4bd749e8",
+    "original_cell_indices": null,
+    "evidence": "7km input construction reused by final stage-o; stage-n estimators excluded.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/spatial/prepare.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/prepare.R",
+    "source_sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a",
+    "published_sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a",
+    "original_cell_indices": null,
+    "evidence": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/spatial/match_guarded_regions.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/match_guarded_regions.R",
+    "source_sha256": "c55bcc80f55d408525f8264c21336a2c249a832c791d21bc7d44be831b0e874c",
+    "published_sha256": "19e77bbc2dc938a647dbe0606a7887f249184595e23c717516805f678ea2b867",
+    "original_cell_indices": null,
+    "evidence": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/spatial/estimate_guarded_regions.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/estimate_guarded_regions.R",
+    "source_sha256": "ceda979edf3811fdd2f31ba14cfea9eb325b7eef6e363598fd5a71ba2151a57c",
+    "published_sha256": "f49089dd474d685d919aac7a58482df34f39eadedc9a0ec5e56d681c9e850738",
+    "original_cell_indices": null,
+    "evidence": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/spatial/validate.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/validate.R",
+    "source_sha256": "41e1842dd69c742486fdc3a66c123cadd31550be414daaeb76d5147555dd4221",
+    "published_sha256": "e4f871b98723ee6441a7c8639aabf97023eb9cd4247d4cc8d64701b2188718a9",
+    "original_cell_indices": null,
+    "evidence": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/spatial/plot_standalone.R",
+    "original_relative_path": "output/research_extensions/23_spatial_spillover/stage_o/plot_standalone.R",
+    "source_sha256": "6fc3910dbba818567a3f6f8cfcb02d0f610773a36e9014572420048279be650d",
+    "published_sha256": "6fc3910dbba818567a3f6f8cfcb02d0f610773a36e9014572420048279be650d",
+    "original_cell_indices": null,
+    "evidence": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "changes": [
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/build.py",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/build.py",
+    "source_sha256": "208be9dd72711009da41418b597d57f2e549973c6feaeb6a3ef5dd1629238d15",
+    "published_sha256": "d236d82682e739e93452170a01c4abe05a1ff0fec66936b46320a9d71105b968",
+    "original_cell_indices": null,
+    "evidence": "Produces results.html consumed by final manuscript table exporter.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/append_sections.py",
+    "original_relative_path": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/append_sections.py",
+    "source_sha256": "da696729e16eba175dfb126b072562ec01e87b20bef91974ccba305bd12f1d72",
+    "published_sha256": "da696729e16eba175dfb126b072562ec01e87b20bef91974ccba305bd12f1d72",
+    "original_cell_indices": null,
+    "evidence": "Produces results.html consumed by final manuscript table exporter.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/export_paper_tables.py",
+    "original_relative_path": "writing/generated_guarded/build_paper.py",
+    "source_sha256": "72360aac881e554f3e4649d2d8ffc8754513f08bc52aaf7f942a1f1021f79b9f",
+    "published_sha256": "2b9b75e0ace366e4375979701f3d1c465c9a1140d67cf1356af0466831a123ae",
+    "original_cell_indices": null,
+    "evidence": "Actual exporter of writing/generated_guarded/tables_figures.tex included by main_revised_v21.tex.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/figures/extra_figures.R",
+    "original_relative_path": "writing/generated_guarded/extra_figures.R",
+    "source_sha256": "16a0635d126f4f9e9e1075d1be29afb5235dcefaedc9764bcb377a61e6151970",
+    "published_sha256": "356c364effa78b6554f330d50a62a1991b7eb764d9f61c7f2a01c0a2f8751900",
+    "original_cell_indices": null,
+    "evidence": "Actual final balance, near/far and radius figures in writing/generated_guarded.",
+    "changes": [
+      "Selected production block / path adaptations; see workflow.",
+      "Project root is repository working directory; statistical specifications retained.",
+      "Consolidated under code/data_process or code/analysis; updated source paths and notebook root setup."
+    ]
+  },
+  {
+    "file": "code/analysis/run_figures.sh",
+    "original_relative_path": null,
+    "evidence": "New execution wrapper derived from the selected production script order.",
+    "published_sha256": "5a2e4ccdaf1f520fbaaa79dd20c9e9c4452e2768632065f12b999a65f2f9e1ec"
+  },
+  {
+    "file": "code/analysis/run_main.sh",
+    "original_relative_path": null,
+    "evidence": "New execution wrapper derived from the selected production script order.",
+    "published_sha256": "b161b5b3891031220e50167106dec21cd136cd0094a71f84da808a57b47c122a"
+  },
+  {
+    "file": "code/analysis/run_spatial.sh",
+    "original_relative_path": null,
+    "evidence": "New execution wrapper derived from the selected production script order.",
+    "published_sha256": "f358746e44d97edee906499c7a5875d417580205ee4cfc43591438489cefa838"
   }
 ]

@@ -33,16 +33,12 @@ Nearby jobs are within 10 km using straight-line tract-centroid distances, inclu
 
 ## Code and reproducibility
 
-The [code guide](docs/CODE_GUIDE.md) describes the Python workflow for unique residence–workplace pairs, batched OSRM routing, and employment-weighted commuting panels. The expanded `research/` directory additionally contains panel preparation, matching, regressions and paper-figure code; see the research workflow below.
+All code is organized in one directory:
 
-```sh
-pip install -r requirements.txt
-python code/check_synthetic_panel.py
+```text
+code/
+  data_process/   # source-data cleaning and analysis-data construction
+  analysis/       # final specifications, robustness checks, tables and figures
 ```
 
-[Validation](docs/VALIDATION.md) · [Sources and code provenance](docs/SOURCES.md)
-
-## Research code: data construction through estimation
-
-The [`research/`](research/) directory includes the original data-preparation and main-analysis code, with notebook outputs removed. Start with the [research workflow](docs/RESEARCH_WORKFLOW.md) for the analysis sequence and remaining replication gaps; [CODE_GUIDE](docs/CODE_GUIDE.md) lists data download sources. [Source manifest](docs/SOURCE_MANIFEST.json) documents provenance and adaptations.
-
+Start with the [code guide](docs/CODE_GUIDE.md) for the run order, source-data downloads and the mapping to the final paper/slides. [Validation](docs/VALIDATION.md) distinguishes executed checks from unresolved replication steps. [Source manifest](docs/SOURCE_MANIFEST.json) records original files and selected notebook cells.

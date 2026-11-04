@@ -1,0 +1,1424 @@
+[
+  {
+    "source": "scripts/RD_anlysis(archived)/qct_rdd_v3.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "d5cfc55d1563c4749b2a5da4ba5e31f04264be7cee90f2c264b75a46602c051f"
+  },
+  {
+    "source": "scripts/RD_anlysis(archived)/rd_wac_fe.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "95f20e7d8973759f1be47d96d10765aac83898ea93618a2afb89f55f2bf0211f"
+  },
+  {
+    "source": "scripts/event_study_analysis/plot_paper_main_psm.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ef4558df9996b9302c39ca1a2fb36082ecec420a41407523f3f8a619fc07a2ba"
+  },
+  {
+    "source": "scripts/event_study_analysis/run_log_wac_income_hetero.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f3a4f3a7235ccde9b908102ebc9ab056e9210d30f93fac3d910ac7526471118a"
+  },
+  {
+    "source": "scripts/event_study_analysis/robustness_spec_a_trajectories.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e5e0664f7f3bc213b1ae7cb37b89709da636d3b65d7ef1bcf506f56c09a6fc93"
+  },
+  {
+    "source": "scripts/event_study_analysis/run_log_wac_income_hetero.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "42c781facdcf699ae0ab5f5efa95f28e9e9a63647722294c1f4b6acbc73a4269"
+  },
+  {
+    "source": "scripts/event_study_analysis/update_commute_three_specs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "3728dc0eeb412ab04246e8cfd5843fbcc6400aa59472af8783d22b9410016754"
+  },
+  {
+    "source": "scripts/event_study_analysis/did_refined.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c8912f752a004e88381ad8d9a23b3b11dc78ae2340a8d174443b9d2e18009e84"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_did_staggered.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "dcbc23146b66e3f833a48fb05db1fe28332fe72ed1e47248fbc61063ad7e7679"
+  },
+  {
+    "source": "scripts/event_study_analysis/update_robustness_paper_tables.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "87d1a860bebcdfc77356125bb393b796208ca5dd70253ec1fdfbc948e69fe7e0"
+  },
+  {
+    "source": "scripts/event_study_analysis/robustness_spec_a_county_trajectories.R",
+    "status": "selected",
+    "reason": "Only for frozen input checks in spatial common.R; not used as final main effect specification.",
+    "sha256": "eca61bc73e82e39a719d3853e1f204ae71a5a3fa93a125da8c857f3381506afb"
+  },
+  {
+    "source": "scripts/event_study_analysis/plot_log_wac_income.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9d674c925e415f8d693c025d3d30392e17fc8e37a3ee4593a9fd3734040ddc75"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_did.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9fed1e96600354bb711385aae35810ea4244265b330fc1bd972b6d9d6d96b689"
+  },
+  {
+    "source": "scripts/event_study_analysis/high_intensity_decomposition.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "cecc4e5097e45ef20650005f992221b80abfc11e44ac8886b09e33af6e041424"
+  },
+  {
+    "source": "scripts/event_study_analysis/robustness_income_heterogeneity.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f67afe131db8348a7a6fe23408f2024247d901d3f4256668f08f80a0feca801c"
+  },
+  {
+    "source": "scripts/event_study_analysis/did_seer_demographics.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e8fc694ef26a4fac587e5f01e99f5decfe7818638b21a3e13eaebb8841b26609"
+  },
+  {
+    "source": "scripts/event_study_analysis/robustness_spec_b_county_trajectories.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9290a0d6db79fcc3493fc7aeddf7946270d290f48883eb981e9dfe80fcf6b8f4"
+  },
+  {
+    "source": "scripts/event_study_analysis/did_seer.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "878c1b3ad79f31929da7d4b64978f9fc1904582c8106c03ba468786f0a05ed94"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_bothgroup_did_.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8ebe2070ed5b866a964fa111bae53c72a996f36842c277217bc937a4ce554e87"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_commuting_road_v2.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b631b139674635fc78e32e3f12b1616ed3265ca3d55464ceb552949b244033aa"
+  },
+  {
+    "source": "scripts/event_study_analysis/did_employment_figures.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "87a88a77e4583d6e2f794b0bb4043ee9223d60b0d5e2b49ba0253f33bb9437ac"
+  },
+  {
+    "source": "scripts/event_study_analysis/make_paper_psm_commute.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "80934f2bda5883a1b6619871263c96d68370c368d45cc71cc8b3fa9e9bbadeb4"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_commuting_road.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0edf5977f73c0ca50a094f8cde6a71fbb374611ad7236a7a962c961e3881db64"
+  },
+  {
+    "source": "scripts/event_study_analysis/psm_intensity_heterogeneity.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2e4082fcb377d080a3342f9afb2a8bc4f1a2c7ab3f26e0ddab020a332121b812"
+  },
+  {
+    "source": "scripts/event_study_analysis/robustness_three_specs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "576f185bfc02e0ccf415cb6a18e16a966df978da5c0cb1fa4e904bc26b1dbedd"
+  },
+  {
+    "source": "scripts/event_study_analysis/did.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "cf4f02ad7bf7a9429bb4c51f4101ddd54e14c96aee030c45cb1ea9e24fe4ae1c"
+  },
+  {
+    "source": "scripts/event_study_analysis/did_multiplegt_dyn_rac.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "a8fadd62dbba36154bf2c36c3b62652d4e175b4b6561baea364e8a264523699d"
+  },
+  {
+    "source": "scripts/event_study_analysis/plot_log_wac_income.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b720c597de9cfbf92f7134cf798171807c968fd559e6fe99511e2c89cf7e7202"
+  },
+  {
+    "source": "scripts/event_study_analysis/heterogeneity_by_scale.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "39343c6f4c6887a63242ee0487ae6524e23bb2ba17ab3f8d4542e4b34e7975f4"
+  },
+  {
+    "source": "scripts/event_study_analysis/make_paper_outputs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "a072e4760629334f3785c02fc75b17f2c6e148c8b1aaf61737014292a79b8b29"
+  },
+  {
+    "source": "scripts/event_study_analysis/eventstudy_commuting_distances_no_psm.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "863f1705b819abec92be19a02ebf5b1aca4d12c2e2de2e2fec0d74e69d47f8d0"
+  },
+  {
+    "source": "scripts/event_study_analysis/archive/before_intensity_subgroup_20261001_155901/make_paper_outputs.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "a6280fd0190c86e87bed4efe8d20d36d9b44fda4a9173e660497e6df61f49596"
+  },
+  {
+    "source": "scripts/event_study_analysis/archive/before_intensity_psm_20261001_153531/make_paper_outputs.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "42b82042e7a67c53f18975efec46d2898dc70ccff04d6bab806aa3d6a419a368"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/11_pooled_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0468089213ba8bbb129750f5f0c4c8195232b144466daf16f43ae40744b2929c"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/06_population_levels_logs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "34b763c14869fa9032b8e8ca9f83fb304a863e9bc9c4b9cef188b3afa512c27a"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/01_housing_capacity.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6a0b8e5d58dc99d70435299f6d84bc4dcb413f46495b9713f735834306479bc9"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/05_rac_geographic_logs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8ac4121f2fbefc9138c981095bf1a814004e6f7b10bbacad8e7db1ac8dc44dc6"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/present_rac_logs.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "14c6fa4df2c8f1f0eed5a9d43c0c762eeb095c4d1b694834f9222778dac23d7c"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/20_integrate_nearfar_paper.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "58062abdb94d4d4e9cb915309910bfe4b993f9b80f999e183a26a15a834960a1"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/08_report_siting.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "46cd7c5b820676f4fb90f6eb3ef2e14bcaab009a8710c9bc376d27665a094ae6"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/07_estimate_access.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "22ebbda7b5e567426551fee30dd9f3ea1ef5fc230a1e223ed53dfa497342fc17"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/07_present_access.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "30e0e0077172e54abfdfbf22e6adc1b967831476c298d60f511a513574314f9a"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/14_validate_primary.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "65035d29419afa33096f638a1913de76a4085e8369b653421651d802e278df46"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/00_common.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/02_commute_income.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "21b3b197ccda2dfab4b3ed832f57b7f826fad80faacb4561873f2205ea2b0f89"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/07_report_access.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "01a170bae2680ff06081d9d4e1f0935238f00b9977a5e355bf649867cb041c42"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/09_present_income_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b75a60501b008dc4790a2ec50ad7cd5d4544a15fe8fd7d6af4b149ba5f9693d3"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/10_export_scale.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d42736c0eb4bd831d858d01d7fc05d02799dbb422a4d609292a7b7ff4698b6b8"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/19_plot_nearfar_paper.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "03a59722819350f5ab2e31aadf513ab1524c6e7d7b506cc88cb0260e432f81c1"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/15_present_primary.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e51b62e06a61e36d944b11e5faae55f2b17c0a9086a851eb8db7bc6a96f1a2da"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/17_plot_primary_appendix.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ff387f5fef6c49d1321c62536653a39583a617f45e781805549c4cbec422eb57"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/07_prepare_access.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9631a20e8553a35d3fb658d434fcc77370f70ffa100b9ca1d6ad0a8ecdb0084f"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/03_near_far_employment.R",
+    "status": "selected",
+    "reason": "Original prepare block computes near/far at 5/10/20km consumed by final estimate_extensions; old regressions omitted.",
+    "sha256": "6652d2add78a0c6361b20e887321246aeced0df77bafb9e18228c3611804edf8"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/present_commute_near_far.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f94de48901281ed5e6a4e8f57739c31331f2d1d0ecf2f502890ac4c54cf9e337"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/present_rac_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e202d1946d37ce6998088f0870d06c249d22d5b1d686ade4e9c9172295518633"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/06_population.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "81eb925cdf0cdda4ee7fc3be15d02e6ff5905511370036302f11c33c14891204"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/plot_housing_accounting.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "be160135e27d224685239e1ccec7d519d93269eef8a6067ef52377230e83275a"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/18_export_primary_appendix.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8b8a34f3d9788c7136fabf847508b2f33d7963d9385e38f5789f006579150277"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/verify_commute_income.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "704027f33e8acd1dae6ad210e8c788a6fbdd7f159cbbe6d92688787164ce3e10"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/09_income_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "10bb8e1ca0fa4c380f82c7467b1ac9d9cbb577599fddb537936bfd3a6f71bca0"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/10_housing_scale.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "3f83f500d97c1670b957b0cb6ba0e48bbec45c9692933728b4a33af889348764"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/12_primary_audit.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "1820e0ec682fe2c37fc8cc3837ff69beb24c14cdaccde2f2db7f4ab010116aa5"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/report_commute_near_far.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d2d4e5e50700640bd0dc35de585c7994d128261bf889ef3dc82d85cb92879c1f"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/audit_commute_near_far_coverage.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "048126910f7ca722bace66688ce6671671e1219aa5ba6ac25b72ed936778d976"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/07_validate_access.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "20ec24fc0441cfcc5f36c5f2a30459e1f4acfacfa9d6bb5ae4ee3ab6c2b4e3f5"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/08_siting.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b1a893251335edd02e1171a4fe90221f0e7f41907994b0d70ebef24dd38892ca"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/04_rac_geographic_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9c9c6b85de54b29229f632f4e4e2988dcff9361ecd54670020e040e504650d6d"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/13_primary_rac.R",
+    "status": "selected",
+    "reason": "Extracted original join block producing primary_rac panel used by final estimate_extensions.",
+    "sha256": "0ddf4a860e621fa8d3fb8fd634987debaebf292c4f83a77e1d094cd825424ee8"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/16_report_primary.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f6032888f51fdae740da19b0ebf54b79d07abfe19fd31ca87452fd9587f17cc7"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/archive_before_od_run/03_near_far_employment.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "0d0770178d08b3e05ec3045b3770db65f47df9da33c49af2d3a4c4d25bed89d6"
+  },
+  {
+    "source": "scripts/event_study_analysis/research_extensions/archive_before_bedrooms/01_housing_capacity.R",
+    "status": "excluded",
+    "reason": "Archived variant; not used as current paper/slides production source.",
+    "sha256": "d38b363f89fe915d81db842fa23809f3bdcf22bc34377c6550fba051d4d53446"
+  },
+  {
+    "source": "scripts/descriptive_anlysis/descriptive_analysis.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9e0b5350f8484ac4016eacd192dfd8101f74e1a0ad85bbd5f12b101a2a914b08"
+  },
+  {
+    "source": "scripts/descriptive_anlysis/descriptive_lihtc_scale.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ea756dad35cb70c13981f4bc451607d9ee0ab621ecf2502e2b22015c58f55afe"
+  },
+  {
+    "source": "scripts/data_process/create_od_panels_ultra_efficient.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b9dd5dffa0c73e9a74b933714377aecca1b4c2114058345dad70eb2d72252b75"
+  },
+  {
+    "source": "scripts/data_process/get_lodes_rac_all.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "84d58d1cbfa49379a44b3fd05a8a70823ac22ba9fc213e66b8069adea6651b28"
+  },
+  {
+    "source": "scripts/data_process/build_tract2010_points_from_tigerline.R",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "87a3539e1065de0c6bd63b771a3eb21fbdece7fb6131e29894d9ca7d0fd910e2"
+  },
+  {
+    "source": "scripts/data_process/compute_od_pair_distance_from_shapefile_points.R",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "789b77399c01ea38ec9b3aa100a855fa7cbaecf91bc687146574cdc7ce3f6345"
+  },
+  {
+    "source": "scripts/data_process/merge_road_distance_batches.py",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "19d1fe94ad5f2e969ee72b6735e397d5862af9cdb4cdf18f1e6ef389ea9a2699"
+  },
+  {
+    "source": "scripts/data_process/get_lodes_rac_tx.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "72c3a4e197aad04531dc5e49cb1b498de3f33d245740dabbb017332518245057"
+  },
+  {
+    "source": "scripts/data_process/download_2010_2019_lodes.R",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "f28cd29e3f29cd8aba23b4920dbcaf365bafcee83c711b8a1e77373c863b2e67"
+  },
+  {
+    "source": "scripts/data_process/download_primary_rac_2010_2019.R",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "529d4cee3f655a5b12dc155b1030d7e39f9a41d590bc2239dbf2c6b31ed5ea2d"
+  },
+  {
+    "source": "scripts/data_process/merge_od_with_lihtc.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "25a445fa4710b3c6b8e2b7265f1b93b1ac3aacb1f253d5cf3da5f2cf7fa6ad77"
+  },
+  {
+    "source": "scripts/data_process/build_unique_tract_pairs_nodb.py",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "4f1e211ae81c378fb0039d155cc24753b31b42411eea80f7aa1db08d38f91bf2"
+  },
+  {
+    "source": "scripts/data_process/get_lodes_od_all.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f393f1224828a2f60cf6269eac1d9dc43277624c10c03cab12f6fe3b4309de3d"
+  },
+  {
+    "source": "scripts/data_process/create_od_panels_local.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "02120f22cdbd1b68d257b24ea527248ab7e899a14f5dda9a5e8eff2de501db1c"
+  },
+  {
+    "source": "scripts/data_process/query_osrm_road_distances.py",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "ce2ec2995cd6887c089b08b6771452feb64c892472052a85784013dc19e69d8b"
+  },
+  {
+    "source": "scripts/data_process/get_lodes_wac_all.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "7bad732d7292ad149457e749794ce95657ec922c2614473492ec7b3a08105e72"
+  },
+  {
+    "source": "scripts/data_process/build_residence_panel_road.py",
+    "status": "selected",
+    "reason": "LODES/geometry/commute or primary-job preparation dependency of final models.",
+    "sha256": "10035f27c2c5305971c1fd84efaa61f0434a9d90b96ead7226655b093eafd5c9"
+  },
+  {
+    "source": "scripts/data_process/build_unique_tract_pairs.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "96b6b91b045e779b6cc6e71eb007a1b1489bd287879da070a90b3dd6162a1b18"
+  },
+  {
+    "source": "scripts/data_process/notebooks/data prep - lihtc property.ipynb",
+    "status": "selected",
+    "reason": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "sha256": "f9c5ebd182f20f8f7b2175494258ea9483ee92daf012c7431546735cb446e5e7"
+  },
+  {
+    "source": "scripts/data_process/notebooks/data prep - merge lodes outcomes.ipynb",
+    "status": "selected",
+    "reason": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "sha256": "94c6288348783c7235bf40c948eb46713b0a9c4afafe374641abc5f84adb59a1"
+  },
+  {
+    "source": "scripts/data_process/notebooks/data prep - merge panels (LIHTC + ACS + LODES).ipynb",
+    "status": "selected",
+    "reason": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "sha256": "ae60e2e2c354bdf91d4414c0a4d0817e7b21695c84a8ed9947d7aa2bc7fdc542"
+  },
+  {
+    "source": "scripts/data_process/notebooks/data prep - 2010 census data (controls).ipynb",
+    "status": "selected",
+    "reason": "Original treatment, control, employment or tract-year panel construction notebook.",
+    "sha256": "f18a9d78f915738d3f6a8fcef1a6179c4e1f1cdfd8606463599c3a5d9153b2b0"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/compare_versions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "fa83e16d266cc8332395572bd1f059de9bb1bc7aebda5d6d646ec151d64c49fc"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/commute_level.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f708c123d1920be6b79e56cad8ec0da7c7c031d2255880cdd0afa1ecfbe3666a"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/validate_and_report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8cb586b76d7da7de4f89aae7c3cd3090b4205959a8ec7f5643b651ac5af8638e"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/audit_eligibility.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "00701c64360cb6c411cf3e8d7fcb54ba58fbe659b53a473b355f468538e4db7f"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0e25eaa42826ee9098388325a54ab02e178c94c03e0b6609dc8ed0457ea0d1c5"
+  },
+  {
+    "source": "output/research_extensions/27_main_state_eligibility_only/main_state_eligibility.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "73d79cb9364683354f3fb51668a89b34a1866fd83e01cef695b4dcf09b9ec36d"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/prepare_ages.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f7671afd2299da7e83448be323cf0ed220d200347a5b3168fc63b689dcbdc130"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/composition_fixed_rates.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "4b5133c93bddc9076093791c764a59b0ea7427fc3452df16c29a01fde6728202"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/00_common_snapshot.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/report_results.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "875e622de76755b2c05eefd2d3af247d25eaab619836f3b0884f859bde4a1800"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/estimate_mechanisms.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "1aea184937c789009b079d1a1835cf158e2bbd7882eab63e03e50f4e29b5854c"
+  },
+  {
+    "source": "output/research_extensions/21_mechanism_diagnostics_20261021/plot_summary.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b885e11b8c4c6fbb1f0f4df0f93f0537fe78504be52702c2fd6cad6ae7bdd392"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/compare_versions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b92ec6ae79c947de8296f7da70bbd826058b25ab04a5b52ff59fa8c76ad27593"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/commute_level.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f708c123d1920be6b79e56cad8ec0da7c7c031d2255880cdd0afa1ecfbe3666a"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/validate_and_report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "b43519773a0ce7a2e4c88d0ed94ed493bb106220010146d522fcf2cc2649a1ea"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/main_state_clean.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "51893fd4815a027c92be843fb184e0dc18ecf701da4e9b9562711164806cd53a"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e2033040df9e3af18b47b950ee3adf0981b62ec1300dfe4b9f08cc580e9de578"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/population_matching_audit/audit.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "33e1d284d92ace9209819120e519362ea817aeaee3061c56e7971128e70c638f"
+  },
+  {
+    "source": "output/research_extensions/25_main_state_clean_controls/population_matching_audit/extract_raw.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8818b7cd7a7badccb853d520929d24c40fb207120a99b112b937478259990750"
+  },
+  {
+    "source": "output/research_extensions/01_housing_capacity_bedrooms/scripts_used/01_housing_capacity.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6a0b8e5d58dc99d70435299f6d84bc4dcb413f46495b9713f735834306479bc9"
+  },
+  {
+    "source": "output/research_extensions/01_housing_capacity_bedrooms/scripts_used/00_common.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "output/research_extensions/24_main_state_expanded/compare_main_state.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c92cf6aa7bae0af2ad21949cca8deb8529534e71f0a5a46b4df91eb341003ff8"
+  },
+  {
+    "source": "output/research_extensions/24_main_state_expanded/main_state_expanded.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8952df5f6a3d743a568b24a512f9a9003df8c47e50b7f2689c71768a3d19cf4b"
+  },
+  {
+    "source": "output/research_extensions/24_main_state_expanded/report_main_state.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "4e3dd12a6f779223a5427448fdb479b4d4ad49274d12e257c49557135ff9829d"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/engine.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "a306e63acadc462982f0813669b49e09f87c8beade57d0e9ae25cf811e24e32d"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/estimate_core.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "1310e6bf1dbce079fe837b8d2c741da118d4c91411f1e114ed49ee2cbee9250f"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/prepare_panel.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "9c71cd9ffca2839bdb55139f79930538dbed26e0633e9068c3b2bf963f39c8a2"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/matching_generator_snapshot.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c1750a37d6944adf9ea015127be5355bdcb5b09bf3ffaa64d083e2fee1ad0121"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/estimate_industry.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "9dcbec5f8487220a02d49b3d1c12122112ce3c9dfe232dc52bd2e54ae4338794"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/validate_design.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "db7e9440a7ed89a30c9746eb084ccc2b0647fe7fe35e5fd95c3b62f6b5ed9c12"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/coverage.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "57d6fe44578301e0d5839c7891961a1a661b159c6adfe37463c26d6fe3fb3184"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6f90368ae42f4741cc8aa607b24d9a2ce090f07b0ffee396109a08737526b17e"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/present.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "6d0b9ab48c1032332df953e0d5eec07d281f55e29ba8f41f97365c520b35d951"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/match_intensity.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "18b5923ed0b3989b4831cead58c482d4fe499554720c9d8c37fec9825e134b8c"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/descriptives.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "d0776b8f1e56fbf800ac36faec6a8d370dfc8c64b461b4753963f56ba77a8011"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2301e98cf1f7a84d251ba2a5c33c22a6fd2ffb430d6a0e24b7cf107dae054cb2"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/estimate_extensions.R",
+    "status": "selected",
+    "reason": "Final main_revised_v21.tex uses generated_guarded results from stage28 production refresh.",
+    "sha256": "6fca168d5dd62d0c3c0c2de25cedf4e91dd7933d6cfe3bc0a6e0343fb667d8f4"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/estimate_primary_wac.R",
+    "status": "selected",
+    "reason": "Primary-WAC estimates consumed by final primary_comparison figure.",
+    "sha256": "a8c7d0bb5fa33343df82414680da80c32d9bd8623f43a18858ed401bb2ed22ad"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/primary_wac/download_primary_wac.R",
+    "status": "selected",
+    "reason": "Primary-job WAC appendix input.",
+    "sha256": "30fb23a9601ed44ab0bba559a8386b78fe163ab6885c4f1a0937b29a8a736453"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/build.py",
+    "status": "selected",
+    "reason": "Produces results.html consumed by final manuscript table exporter.",
+    "sha256": "208be9dd72711009da41418b597d57f2e549973c6feaeb6a3ef5dd1629238d15"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/new_figures.R",
+    "status": "selected",
+    "reason": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "sha256": "40cda80586f2ccd58e874af2b59f7819860d9fb5d65ca9ac386b6157190fcd91"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/figures.R",
+    "status": "selected",
+    "reason": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "sha256": "578ca61641d62d9b8e0d46a04973b2c663180f0b1dffa242ab1bdfe5fae77c16"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/primary_figure.R",
+    "status": "selected",
+    "reason": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "sha256": "2f2bedd60f78861997430cfb0429ebedfca9e217b0fd02f85dabca50c3ff38f6"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/append_sections.py",
+    "status": "selected",
+    "reason": "Produces results.html consumed by final manuscript table exporter.",
+    "sha256": "da696729e16eba175dfb126b072562ec01e87b20bef91974ccba305bd12f1d72"
+  },
+  {
+    "source": "output/research_extensions/28_paper_state_guarded_refresh/paper_preview/event_figures.R",
+    "status": "selected",
+    "reason": "Figure paths referenced by writing/generated_guarded/tables_figures.tex.",
+    "sha256": "c8afdacd8dd4b68aaeee49498c268aec252e4dea809768a17ff3f9da34add4b8"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/compare_versions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "10881116c520edb6e5abd1aa6cab1e1fc032b8803cecc4e83647f3c1aff6f003"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/audit_guards.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "37efa606cb6460b65ea330adb8709a5f3c2c2341cfecaf4e5f69604a6725a15f"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/commute_level.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f708c123d1920be6b79e56cad8ec0da7c7c031d2255880cdd0afa1ecfbe3666a"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/validate_and_report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c87946a098ee7119adfce007c4a4dd27520da9ebd7501ea7407230bf376d1621"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6b171c6718f7e4ad888914cdcd9c96cdba0f568e21d8eba8a0bf9bf73b811850"
+  },
+  {
+    "source": "output/research_extensions/26_main_state_guarded_matching/main_state_guarded.R",
+    "status": "selected",
+    "reason": "Generates the exact state-matched pairs consumed by stage28.",
+    "sha256": "c1750a37d6944adf9ea015127be5355bdcb5b09bf3ffaa64d083e2fee1ad0121"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/00_common.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/02_commute_income.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "21b3b197ccda2dfab4b3ed832f57b7f826fad80faacb4561873f2205ea2b0f89"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/present_commute_near_far.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f94de48901281ed5e6a4e8f57739c31331f2d1d0ecf2f502890ac4c54cf9e337"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/verify_commute_income.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "704027f33e8acd1dae6ad210e8c788a6fbdd7f159cbbe6d92688787164ce3e10"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/report_commute_near_far.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d2d4e5e50700640bd0dc35de585c7994d128261bf889ef3dc82d85cb92879c1f"
+  },
+  {
+    "source": "output/research_extensions/02_commute_income/scripts_used/audit_commute_near_far_coverage.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "048126910f7ca722bace66688ce6671671e1219aa5ba6ac25b72ed936778d976"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/00_common.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/03_near_far_employment.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6652d2add78a0c6361b20e887321246aeced0df77bafb9e18228c3611804edf8"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/present_commute_near_far.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f94de48901281ed5e6a4e8f57739c31331f2d1d0ecf2f502890ac4c54cf9e337"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/verify_commute_income.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "704027f33e8acd1dae6ad210e8c788a6fbdd7f159cbbe6d92688787164ce3e10"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/report_commute_near_far.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d2d4e5e50700640bd0dc35de585c7994d128261bf889ef3dc82d85cb92879c1f"
+  },
+  {
+    "source": "output/research_extensions/03_near_far/scripts_used/audit_commute_near_far_coverage.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "048126910f7ca722bace66688ce6671671e1219aa5ba6ac25b72ed936778d976"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_state_isolated.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8f529f38e80f45e07da1c3266a08a2c17cc33750668bfbbd37a117371c236b92"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_county_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "db3db20b328c380bdbeff60954c8a3743797abe07ee16cf708bdd45d7d352cef"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_population_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "744736606be58215751cce0d4dbbcdad19c17bf98e13cd750e780117113288b1"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_long_pretrends.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "debd27cb2d9fe212da875ef27ffca6be5d03fdc654552d360278a5a04446420a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_H_isolated_subset.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "44b2493f9fa898c3867a770ad3d33d77eb472733e4a37803e147e181c49d0b76"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_full_cohort_rematch.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "39a016b90eb63982b49936eccd954e6e7063d7c72a7df11a366d96d40d762467"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_common_HJ.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d0fbef9404c35150fa312918af25147492394f481edbb651c07e5ae0c3ce6150"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_population_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2ad08539f372bcec0d6547cb9411058b7f9e09f88f9e8e7db873bac344f863bc"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_H_isolated_subset.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "18e4b66cc4879f7f95cbbe9a1f2a4142d335a9e7e6b29f9a7e47a1c7a117d4fd"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_H_isolated_subset.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "54e845e7b77fd6ff3f0c59afdf76f4c5483b48d846af1d5e9e0bc16620f73726"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_state_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e290a404f0f9b7a1384fff3130948cb1e5e567bc7716763ae01a0b71689a5eba"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_full_cohort_rematch.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "54bcc706c35bd2a35c30f99bf51101366cf6d9b2adbe0b99f615900342c244e8"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_population_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "780976bb28b8966800dd30dea6dad2e93cdbf29f22df7d12c6171bb35887fa91"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_H_project_groups.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "1a46bffb7edbece5f26030804b23c94827d76d638f6db56bd7f8bf3dae829cbf"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/rematch_population_levels.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e2ae0e2c7680200627f98de9a9e381ee62211e0528274b13e563e85e8fec7a8b"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/rematch_county_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "6b9c53b944d9748c992a09771a9a14858d2bdb2e5d14d181dbefafcb9d1b78cb"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_state_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "33bea3599ee435e1ef660bafdc36c724115ccdca3f6b3046e125bbf18e664cc4"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_full_cohort_rematch.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "710178de26b4b984d477d08970a637caa03337e3fea1ec44bc180b537154d940"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_center_surroundings.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "4399b9f349068d5cf9bd69a2b6f5079f05addb6fab1d08f8558def28d9fb7a91"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/diagnose_5km.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "12345b8ca1b7c8cb42397f856f41543cb8f83d501e2f18de6ea314d68f2c4a24"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_long_pretrends.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "956c95d3f8c20fec685797f1e6cedadbcc2094d79ad380626982e7288afe69f6"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_spatial_results.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c817e5716716392562d96b962506a068db1a5055eae8a9fb278a5534873cb572"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_long_pretrends.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "959197ff4e20e8ab6c7900335c8b145ca752e7588853023b3b2c8ce861b59ce9"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/project_coordinates.R",
+    "status": "selected",
+    "reason": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "sha256": "2da2256314e0bcea0727a9d58503eb5fca5e08dbb1516de12779baa0608f9d97"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/write_matching_report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "85eb3f41901f351f0a449e4afdd328769788e550c651293429fcd957d5d24f8c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_county_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "3e6585d90095fceef3e18f23a71900693168995dd3f5562700698b54409cdb34"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_common_HJ.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0dc2640034ab0cb85fb6999f4ca82e4bdab089b4e73276a324004b77dc99f45b"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_H_isolated_subset.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "30f8b77f0e05837a21a3da88cbd3d36871a21ba9191b8cc21b4b95f2ab8c0bd1"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_state_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2b12e4e8b501817e7d60e1218eb6f3d070f75c80d27cf1425be51331a3f36f8d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_matching.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "63913cb918494a7a46d2edaf3a765e199f8eceaf0f474a05a672da938b23cf4d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/match_center_surroundings.R",
+    "status": "selected",
+    "reason": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "sha256": "321fa63c929a27e3227c45a230205a455d37b3a6316b353e8936980fc015109c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/match_regions.R",
+    "status": "selected",
+    "reason": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "sha256": "41a44568e612940b49d34ae4efae8e7a86b3bc3886a6bd9a2671152f677f121c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/supplement.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "440c17ba582d8b79fbe3e5cb491a6a4d5c420e56a565cfa9425e9c0598d9e2fa"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_spatial_regions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0ddc6027d02fa5bee75bcdd1b0a183ff1466b77ac01841367da197c825e19a2f"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_H_project_groups.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "ee8a5f179d4030f80b4d6217e843578baca468570caf6b9932d8fefd7fb99081"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/00_common_snapshot.R",
+    "status": "selected",
+    "reason": "Shared input definitions for original spatial preparation; original county-pair audit is an upstream dependency.",
+    "sha256": "ad1daa4a922f2741361ee2449c30c3ca256e00358217c94b84eb25068251a912"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_population_levels.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "773f798d0ec7e321040fb583111adf16a6165acfdc5857db56bb97ed52752c9a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/append_report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f854d396efa2be412196d442f94d9a0ae751a276f5bdef8826385c2451df755d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_long_pretrends.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "c05292961dbad6c473e5f048b365a23b4e6abbbe0db55db8518c3cbc60c00e9a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_county_isolated.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "22d93c7a0c764a0421a6207c4b0f8a1936be7c7e3381bbea6719331c386f5930"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_county_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2cbfa4649b6f0322d69ea17ffb65b07fef1c94e06a96178b96f5995168a06db4"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/estimate_common_HJ.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "36e16b9b2d171f0535c1bc30e1eb811680fdbba6750daf98bad76119bf508b8d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/plot_spatial_results.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "3e922b1e99c2757abc66f928c68c283792d0f4868aac9da8c463629757133ed5"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/run.R",
+    "status": "selected",
+    "reason": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "sha256": "94d64aca1be1597e81ee1add1abd485191e7df2d27fba9224ffc0476347e8db0"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/rematch_state_isolated.R",
+    "status": "selected",
+    "reason": "Ancestor constructing stage-a/b/c/j inputs required by final stage-o spatial estimator.",
+    "sha256": "c8d8495adc35b4165e12b548aee0ec6791dde3ed03b9466517c77ba06c20bb2c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_H_project_groups.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "9c71d251677deb79aee3f643575d682337e8c9afcde78722862b37d5cc0eaff2"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report_H_project_groups.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "64da8ac1e1cb09a0c9458b320d5476cb618c604177703abd4e0c67ea2aeed08e"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/validate_county_isolated_growth.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "8ca6bb10426d2b7841bf05e9fe26c5eac9c0eb272466337af05d98da7cc93cd6"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/compare_geography.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f575995fc5416ee1f98a6867565b142f9992c7c54410cc064cc3a1f877364dbe"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/rematch_long_pretrends.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "4d04695a51c81295e65f23a88c49a813d92454ad9f231275bbd83608a8cced50"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "13c112cb5123076f2502039f1fee2404145ebba7494078ddfefab6217a1c35d1"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/prepare.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/estimate_regions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "a7363ec7814a4303595940088d565f3497d792dd53406ab335239eccf57c5488"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "a5d1ae6844c9fbbdd34adb85d3272940c1013e47d77876ecd29e61c244580b7d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/compare.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "89fce00ae735aa902e4afa0212a68c70efe73ce2c2e46838779ef843518d6d05"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/validate.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "1aed094331c69868ac80c4f0ae64a891de6b03a127cb35fa6d63046ddfeae503"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "43fbfbf5c78cae5527d24efabff794ffc0e607c96bb9222560bf96e21486dc0a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_p/match_eligibility_regions.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f831ea2b505f54a793597817195ee016c52d3a140c87efa6c14e2474da3034a1"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/prepare.R",
+    "status": "selected",
+    "reason": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "sha256": "efa30b4577fdd751118b8319e6a2601244d550e5699eeec78339efcc1e5aa89a"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/estimate_guarded_regions.R",
+    "status": "selected",
+    "reason": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "sha256": "ceda979edf3811fdd2f31ba14cfea9eb325b7eef6e363598fd5a71ba2151a57c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "dd086a949500e761a6e022d7336cc10c6476ed02d704dcd94fe0165e1a69254b"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/compare.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "681c7279833f9bc41b37177520b15bf81d2e1a1afc51406cd8f7ebfac0cedaaf"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/validate.R",
+    "status": "selected",
+    "reason": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "sha256": "41e1842dd69c742486fdc3a66c123cadd31550be414daaeb76d5147555dd4221"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/match_guarded_regions.R",
+    "status": "selected",
+    "reason": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "sha256": "c55bcc80f55d408525f8264c21336a2c249a832c791d21bc7d44be831b0e874c"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/plot_standalone.R",
+    "status": "selected",
+    "reason": "Final spatial stage-o estimates/validation/plots referenced by paper figures.",
+    "sha256": "6fc3910dbba818567a3f6f8cfcb02d0f610773a36e9014572420048279be650d"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_o/report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "e5fdec28cc4a43597a6b23d00886a93610853cedc0c20375b1036936846bdacb"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/RUN.sh",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "0934a86c10c6f1b5e1e042946d7c9bb71cd4981162207b42941dd54ae1376368"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "2527b4c5cfa3817e073d00c7c83f1c4de381654d00f8e88dc7c0a7364134abae"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/validate_7km_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "f6fb64b1bfba075a940e841b3d9cb356e4c0228c0c8d49b1ccbe6b9038ce1180"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/estimate_7km_isolated.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "fb9ea5d6b92d841335267c14c6a85fdc6e67b0eb3e6f596ff13731f3a3b82697"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/report_7km_isolated.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "3fce2d7e545edfe8860ab65a5793a7e3f5a35ec85717a53e18a540a939de1079"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/match_7km_H.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "80cbbf9e9f638da91be51835979e441d3709d0f25e5e9d9789536920c64b6360"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_cache.R",
+    "status": "selected",
+    "reason": "7km input construction reused by final stage-o; stage-n estimators excluded.",
+    "sha256": "2e83f53dd78e4bca02ac3b06d140461f300ad4e13d5e6249536c636864cfac64"
+  },
+  {
+    "source": "output/research_extensions/23_spatial_spillover/stage_n/scripts/prepare_7km_eligibility.R",
+    "status": "selected",
+    "reason": "7km input construction reused by final stage-o; stage-n estimators excluded.",
+    "sha256": "7dc0900d499bb25068a9ad37dcfc180275d4f6642433b67661e9b083dc94b53e"
+  },
+  {
+    "source": "output/research_extensions/22_industry_rac_wac_20261022/summarize.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "d8fc3f4c599e6342df9e725e394c680bdbb711fc0d4c76047a463d2d0468c2c1"
+  },
+  {
+    "source": "output/research_extensions/22_industry_rac_wac_20261022/estimate_industries.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "610f080a3c355d36dd7e0730591cc582fe203fc7abf797eac3471f94effbff5d"
+  },
+  {
+    "source": "output/research_extensions/22_industry_rac_wac_20261022/00_common_snapshot.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "fc1d59332600c6b4840af504675b1f876c04ac1108cde19ad9cf4ccd70040228"
+  },
+  {
+    "source": "output/research_extensions/22_industry_rac_wac_20261022/report.py",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "4fb5ab05b61fa441cd7ba4bbc92d1dc409e0bd98b9885cea3a1b4ef32d8ab47f"
+  },
+  {
+    "source": "output/research_extensions/22_industry_rac_wac_20261022/paper_preview/plot_industry.R",
+    "status": "excluded",
+    "reason": "Exploratory, superseded, or not on the verified final output/dependency path; excluded from the shareable main code.",
+    "sha256": "91443201ead0c4912d4fec22aa5dbfaa9746b98ff487237d9ccdc55425b93746"
+  },
+  {
+    "source": "writing/generated_guarded/build_paper.py",
+    "status": "selected",
+    "reason": "Actual exporter of writing/generated_guarded/tables_figures.tex included by main_revised_v21.tex.",
+    "sha256": "72360aac881e554f3e4649d2d8ffc8754513f08bc52aaf7f942a1f1021f79b9f"
+  },
+  {
+    "source": "writing/generated_guarded/extra_figures.R",
+    "status": "selected",
+    "reason": "Actual final balance, near/far and radius figures in writing/generated_guarded.",
+    "sha256": "16a0635d126f4f9e9e1075d1be29afb5235dcefaedc9764bcb377a61e6151970"
+  }
+]
